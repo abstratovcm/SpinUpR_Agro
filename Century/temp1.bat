@@ -1,0 +1,1 @@
+c:\centxpc\centx.exe -l k:\epasom\latest.100\ -s C:\Data\jbrenner\cult_test\mandan\con_con_101.evt -e C:\Data\jbrenner\cult_test\mandan\man_base_noSENM_2.bin | c:\centxpc\centuryx.log

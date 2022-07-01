@@ -1,0 +1,86 @@
+11/01/98
+
+The recommmended way to run CENTURY and its associated utility programs is from a DOS box in Windows 95.  To accomplish this press the Start button on your Windows 95 task bar and select the Programs | MS-DOS prompt menu option.  Once you have a DOS window open use the cd command to change to the directory where you have installed the CENTURY files (if necessary).  If you are using the default configuration this will be C:\century.
+
+To run CENTURY type:
+	century -s <schedule file> -n <output file>
+at the DOS prompt.
+
+When running CENTURY the directory from which you will be running your simulations must contain the following files:
+	century.exe       <- the CENTURY executable
+	The parameter files:
+		crop.100
+		cult.100
+		fert.100
+		fire.100
+		fix.100
+		graz.100
+		harv.100
+		irri.100
+		omad.100
+		tree.100
+		trem.100
+		<site>.100  <- your site specific parameter file
+		*.sch       <- your schedule file for the simulation
+		*.wth       <- optional, a historical weather data file for the site
+
+Other files which should be in your CENTURY directory are:
+	CENTURY utilities:
+		EVENT100   <- used to create and/or modify schedule files
+		FILE100    <- used to modify parameter files
+		LIST100    <- used to extract output from the binary output file to ASCII text file
+	The parameter definition files (must be in the directory when running FILE100):
+		crop.def
+		cult.def
+		fert.def
+		fire.def
+		fix.def
+		graz.def
+		harv.def
+		irri.def
+		omad.def
+		site.def
+		tree.def
+		trem.def
+
+Your CENTURY installation includes sample site files, schedule files and biome specific fix files to help you get started using CENTURY.
+
+The values in the site files are based on information gathered at LTER sites.  For more information about the LTER (Long-Term Ecological Research) program or the individual sites please access the LTER homepage - http://lternet.edu.  The sample site files include:
+	aridsl.100 - Jornada Experimental Range, hot desert
+	boreal.100 - Bonanza Creek Experimental Forest, boreal forest
+	c3grs.100  - Shortgrass Steppe, shortgrass steppe (formerly called Central Plains Experimental Range)
+	c4grs.100  - Konza Prairie Research Natural Area, tallgrass prairie
+	tconif.100 - H.J. Andrews Experimental Forest, temperate coniferous forest
+	tdecid.100 - Cowetta Hydrologic Lab, eastern deciduous forest
+	tropeg.100 - Luquillo Experimental Forest, tropical rain forest
+	tsavan.100 - Konza Prairie Research Natural Area, tallgrass prairie
+	tundra.100 - Niwot Ridge/Green Lake Valley, alpine tundra
+
+The sample schedule files are:
+	aridsl.sch - northern hemisphere arid shrubland
+	boreal.sch - boreal forest
+	c3grs.sch  - northern hemisphere c3 dominated
+	c4grs.sch  - northern hemisphere c4 dominated
+	tconif.sch - temerate mixed forest
+	tdecid.sch - temperate deciduous forest
+	tropeg.sch - tropical evergreen forest
+	tsavan.sch - temperate savanna
+	tundra.sch - northern hemisphere tundra (grass)
+
+The biome specific fix files differ primarily in the FWLOSS(x) parameters that adjust the relative impact of a PET equation originally developed for the tropics.  Select the appropriate fix file for your site from the list below and copy it to "fix.100" before running your simulation.  When simulating a savanna use the fix file that corresponds to the grass component of your system.
+	arcfix.100   - arctic tundra
+	borfix.100   - boreal forest
+	dryffix.100  - dry forest
+	drygfix.100  - dry grassland
+	drytrpfi.100 - dry tropical
+	ffix.100     - forest
+	gfix.100     - mesic/subhimid grassland
+	trpfix.100   - tropical
+
+This CENTURY installation also includes the CENTURY user's guide in a Windows Help file format.  There is also a Windows Help file with definitions and suggested ranges for input parameters, defintions of output variables, a limited glossary, and a bibliography of CENTURY model scientific publications.  To access the Help files use the icons that are installed into your CENTURY 4.0 group on your Windows 95 Start menu.
+
+If you wish to un-install CENTURY use the Uninstall Century 4.0 icon in the CENTURY 4.0 group on you Windows 95 Start menu.
+
+CENTURY is not self-explanatory so we strongly recommend that you read the included documentation (the CENTURY user's guide Help file).  Our limited level of technical support is available only to CENTURY users who have thoroughly read the user's guide.  The CENTURY manual can be purchased.  Each copy of the manual costs $50.00 (USD).  This includes standard shipping for North American addresses (extra charge for express shipping).  Non-North-American orders are shipped at the expense of the ordering party (you select surface, air, or express mail).  If you wish to place an order, please specify how many copies of the manual you would like, how you would like them shipped, the address to which they should be shipped, if you would like to pay in advance (we accept credit cards or check/money orders in US dollars made payable to "Colorado State University"), or if we should bill you.  Please direct requests to century@nrel.colostate.edu via e-mail.
+
+Please send an e-mail message to century@nrel.colostate.edu to report any problems or to ask questions about the CENTURY model.

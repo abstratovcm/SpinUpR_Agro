@@ -1,0 +1,111 @@
+
+Read ME 3/99:  Modeling Agricultural Systems
+
+OVERVIEW:
+
+This example refers to the use of PC Century for agricultural systems.
+Refer to the User Manual (GPSR Technical Report No. 4) for details about Century. The executable files also include a newer utility not discussed in the user manual - getorg.exe (discussed below).
+
+After running and becoming familiar with the example, you will need to construct a number of your own files: a site file, weather file, and schedule files. For your own work, you will need to create a minimum of three schedule files (for the equilibrium, base and experimental runs). If you plan to model several experiment scenarios, it is easiest to delimit these in separate schedule files. Use a text editor to create schedule files and to parameterize *.100 files. Modify the example files with the text editor to suite your needs, once you are familiar the format and content of the schedule (*.evt) and *.100 files.
+
+The program files include:
+_________________________________________________________________________
+centx.exe     Primary executable for the Century model. Executing Century
+              for modeling agricultural systems uses a different syntax than
+              discussed in Section 6 of the manual. Here, we use the 
+              following syntax:  centx -s <schedule file> -n <binary file> 
+list100.exe   Copies information in the binary file (*.bin) created by 
+              centx.exe to an ASCII file, listing output data for variables
+              you specify. See Appendix 2.13 for an output variable list.
+getorg.exe    Reads the *.bin file and updates soil organic matter, 
+              mineral,and water initial parameters in the site file.
+_________________________________________________________________________
+
+
+The parameter files (text files rarely modified by the user) include:
+_________________________________________________________________________
+*.100         Where options for each environmental parameter are stored.  
+*.def         Definition files corresponding to  *.100 files.
+_________________________________________________________________________
+See section 2.2, 3, and 4 of the manual for details or examples.
+The Fix.100 file included here is for the Mesic Subhumid Grassland Biome. Fix.100 files for other biomes are available from the NREL web site.
+
+The example files include:
+_________________________________________________________________________
+ex_eq.100    Site file to conduct the Equilibrium run.
+ex_eq.evt    Schedule for the Equilibrium run, a period of 6000 years.
+ex_base.evt  Schedule to conduct the Base run from the years 1901 - 1910.
+ex_w.evt     Schedule for experiment (continuous wheat) from 1911 - 1991.
+example.wth  Weather data
+_________________________________________________________________________
+There are examples of site, *.100, and schedule files in the user manual.
+
+Note: Century handles long file names; short (8 char) file names are used in
+      this example for those running Century from DOS, instead of from the 
+      Windows 95/98 MS-DOS Prompt, or using a DOS version unzip utility.
+
+*****************************************************************************
+EQUILIBRIUM RUN PROCEDURE:
+
+The soil organic matter parameters in the site file must be adjusted to reflect regional conditions and history. A way to acomplish this is to bootstrap the parameters with an Equilibrium run simulating several thousand years. In the example, the equilibrium schedule file directs the model to run a period of 6000 years.
+
+1. Open a MS-DOS Prompt Window and change directories to the one where
+   the Century files occur.
+2. At the DOS prompt enter the commands shown in the example below:
+
+Format:     centx -s <schedule file> -n <binary file> 
+Example:    centx -s ex_eq -n ex_eq  <return>
+
+This run uses the "ex_eq.evt" schedule file (specified by "-s" and creates the binary file "ex_eq.bin" (specified by "-n").
+
+3. Execute list100.exe to inspect some of the output results:  
+        list100 <return>
+Enter the name of the binary file (ex_eq) when prompted and enter a name for the ASCII output (ex_eq ; no extension). Enter the variables of interest (somtc, aglivcc, etc. ; see Appendix 2.13 of the manual). Import the resulting file (ex_eq.lis) into a spreadsheet or text editor.
+
+*****************************************************************************
+BASE RUN PROCEDURE:
+
+Part 1
+A Base run is an extension of the equilibrium run used for initializing the organic matter, mineral, and soil water conditions at the beginning of the experiments. This enables you to maintain only one site file for various experimental treatments (delimited in schedule files). A newer utility not described in the manual is used to automate this process - getorg.exe.
+
+1.  Getorg.exe reads the binary output file (*.bin) file and updates
+soil organic matter, mineral, and water initial parameters in a site file.
+This new utility is used to automate the creation of accurate site
+files by allowing you to capture conditions at the end of a Century
+simulation for a site use them as the starting conditions for another run.
+ 
+To run getorg.exe type:
+   
+Format:     getorg <binary file>  <site file>
+Example:    getorg ex_eq.bin ex_eq.100  <return>
+
+The files can be specified in either order if the extensions are included. The program writes a new site file containing the updates called  "new_ <site>.100".  The site file new_ex_eq.100 site is created in the example above. Rename new_ex_eq.100 file to "ex_base.100" to help you remember that this is the site file for the Base run.
+
+**Note**  If you run this example, you MUST rename the site file to "ex_base.100" because the base and experiment schedule files specify a site file of this name.
+
+Part 2
+1.  Run Centx.exe again using the updated <site.100> file and the base condition schedule file. The Base schedule file should reflect the management practices or range conditions you want in place at the beginning of your experimental treatments. This has a bearing on the initial values of organic matter, mineral and water parameters in the site file when you begin your experiments. 
+ 
+   Format:  centx -s <schedule file> -n <binary file> 
+   Example: centx -s ex_base -n ex_base  <return>
+
+This run uses the "ex_base.evt" schedule file and creates an "ex_base.bin" binary file. In this example, the ten years prior to beginning the experiments describe a light to moderate grazed grassland that burned in August, 1905. In the last year, the grassland was harvested in September, plowed in August, and cultivated in October.
+
+*****************************************************************************
+EXECUTING EXPERIMENT(S) PROCEDURE:
+
+The extend function in Century, your Base binary and .100 files, and various schedule files can now be use to simulate different experiments.  
+
+1.  Run the model using the site_base.100 file (from the Base run) and schedules delimiting your experiments.
+
+   Format:  centx -s <sched. file> -n <binary file> -e <binary file to extend> 
+   Example: centx -s ex_w -n ex_w  -e ex_base <return>
+
+The "ex_w.evt" schedule file specifies a simulation of a continuous wheat crop from 1911 to 1991.  The results of the run are contained in the binary file "ex_w.bin". The simulation extends from the soil conditions delimited in the site file by "ex_base.bin".
+
+2. After model run is complete execute the list100.exe file:
+         list100  <return>
+
+Enter the name of the binary file (ex_w ; without bin extension) when prompted and enter a name for the ASCII output file (ex_w ; no extension). Enter the variables of interest (somtc, aglivcc, etc. ; see Appendix 2.13 of the manual). Import the resulting file  (ex_w.lis) into a spreadsheet or text editor.
+
+Note: The binary files are large. If you use getorg.exe as described, consider only saving the active *.bin files. Typically, these are from the Base and active experiment (the experiment from which you are currently creating *.lis files). The *.bin files from other experimental runs are easily recreated by rerunning Century. After creating a Base.bin file, it is also not necessary to keep the equilibrium bin file.

@@ -1,0 +1,42 @@
+ 
+           CENTURY SOIL ORGANIC MATTER MODEL
+                  STAND-ALONE VERSION
+                      Version 4.0
+                       March 2002
+ 
+ usage:centx -l dir/ -s sch.evt -n n.bin -e o.bin
+   sch.evt          event or schedule file
+   n.bin, o.bin     binary files
+   file extensions are optional
+    -c    Century command file
+    -l    directory to search for library files
+    -s    name of schedule file (-s optional)
+    -n    name of new binary output file
+    -a    name of binary file to augment
+          use in place of the -n argument
+    -t    name of <text>.lis output file
+    -v    variable list to text output
+    -d,   use the next character as output
+          delimiter, Defaults t0 a fixed format
+    -dt   makes the file tab delimited.
+    -[ei] name of old binary file to extend
+          i extend takes only initial conditions
+    -q    quiet mode;
+          places terminal output, warnings and
+          error messages to a file century.log
+    -R    read index in binary site file (.esa)
+    -W    write updated site file
+          Will write an updated ASCII site file
+            if the file name is <site>.100.
+          Write a record in a binary site file
+            given an index and <site>.esa name.
+   Notes:
+     Specifying a command file input immediately
+         stops argument processing. Command
+         files can be chained.
+     The a, e, and i arguments invoke extend
+         options which allow linked runs
+     The default output file is a binary file
+         with the same root name as the event
+         file but with the .bin extension.
+     Default output will overwrite existing data

@@ -1,0 +1,31 @@
+ 
+           CENTURY SOIL ORGANIC MATTER MODEL
+                  STAND-ALONE VERSION
+                      Version 4.0
+                       July 2000
+ 
+ usage:centx -l dir/ -s sch.evt -n n.bin -e o.bin
+   sch.evt          event or schedule file
+   n.bin, o.bin     binary files
+   file extensions are optional
+      -l   directory to search for library files
+      -s   name of schedule file (-s optional)
+      -n   name of new binary output file
+      -a   name of binary file to add data
+           use in place of the -n argument
+      -e   name of old binary file to extend
+      -i   name of old binary file specifying
+           the initial conditions (date is
+           set to the scheduled start date
+      -R   read index in binary site file (.esa)
+      -W   write updated site file
+           Will write an updated ASCII site file
+             if the file name is <site>.100.
+           Write a record in a binary site file
+             given an index and <site>.esa name.
+   Notes:
+      The a, e, and i arguments invoke extend
+          options which allow linked runs
+      The default output file name is the event
+          file with the .bin extension
+      Default output can overwrite existing data

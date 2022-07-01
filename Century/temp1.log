@@ -1,0 +1,45 @@
+ The output binary file is c:\temp\temp1.bin
+ WARNING: Using decomposition density function
+      45.000000       55.000000        2.630000    2.000000E-01
+ 
+   Model is running...
+   Error: option FALLO was not found in cropin.100 file.
+     the following options were located:
+W0    wheat_(1920_Iowa)low_yie
+W1    wheat_low_harvest_index 
+W2    wheat_medium_harvest_ind
+W3    Wheat_high_harvest_index
+W4    Wheat_high_harvest_index
+SW1    Spring_wheat_low_harves
+SW2    Spring_wheat_medium_har
+SW3    Spring_Wheat_high_harve
+G5    grass__mixed_75%warm    
+G4    grass__mixed_25%warm    
+G3    grass__mixed_50%_warm_50
+G2    grass__warm_season_speci
+G1    grass__cool_season_speci
+GGCP   3/4_Temperate_grass 1/4
+GCP   Temperate_grass_clover_p
+ALF   Nitrogen fixing Legume (
+TG    Temperate_grassland     
+E     Weeds                   
+M     Millet___(tentative)    
+SYBN  Soybeans  (PRDX and HIMA
+C-HI  corn-highest-yield      
+C6    corn-c6                 
+CDRY  Modern dry land corn -c5
+C5    corn-c5                 
+C4    corn-c4                 
+C3    medium-yield            
+C2    c2                      
+C1    Corn-low-yield          
+C     Corn_from_Alister       
+CDL    Dry land corn-c6       
+SORG    sorghum     Based on C
+COT    Cotton (based on low-yi
+PEA   (Dryland Peas for PNW   
+SYBN1 Soybeans  (PRDX and HIMA
+SYBN2 Soybeans  (PRDX and HIMA
+EGCP   Easter_US_Temperate_gra
+ Abnormal Termination
+

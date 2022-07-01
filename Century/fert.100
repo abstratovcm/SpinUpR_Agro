@@ -1,0 +1,285 @@
+A     Automatic__maintain_production_at_minimum_concentrations
+0.00000           'FERAMT(1)' 
+0.00000           'FERAMT(2)' 
+0.00000           'FERAMT(3)' 
+1.00000           'AUFERT'    
+A90   Automatic__maintain_production_at_90%_of_maximum
+0.00000           'FERAMT(1)' 
+0.00000           'FERAMT(2)' 
+0.00000           'FERAMT(3)' 
+0.90000           'AUFERT'    
+A80   Automatic__maintain_production_at_80%_of_maximum
+0.00000           'FERAMT(1)' 
+0.00000           'FERAMT(2)' 
+0.00000           'FERAMT(3)' 
+0.80000           'AUFERT'    
+A75   Automatic__maintain_production_at_75%_of_maximum
+0.00000           'FERAMT(1)' 
+0.00000           'FERAMT(2)' 
+0.00000           'FERAMT(3)' 
+0.75000           'AUFERT'    
+MAX   Automatic_fertiliser_to_achieve_maximum_plant_nutrient_concentration
+0.00000           'FERAMT(1)' 
+0.00000           'FERAMT(2)' 
+0.00000           'FERAMT(3)' 
+2.00000           'AUFERT'    
+MED   Automatic__medium_nutrient_concentrations
+0.00000           'FERAMT(1)' 
+0.00000           'FERAMT(2)' 
+0.00000           'FERAMT(3)' 
+1.50000           'AUFERT'    
+N5    Nitrogen__5_gN/m2
+5.00000           'FERAMT(1)' 
+0.00000           'FERAMT(2)' 
+0.00000           'FERAMT(3)' 
+0.00000           'AUFERT'    
+N45   Nitrogen__4.5_gN/m2
+4.50000           'FERAMT(1)' 
+0.00000           'FERAMT(2)' 
+0.00000           'FERAMT(3)' 
+0.00000           'AUFERT'    
+N3    Nitrogen__3_gN/m2
+3.00000           'FERAMT(1)' 
+0.00000           'FERAMT(2)' 
+0.00000           'FERAMT(3)' 
+0.00000           'AUFERT'    
+N1    Nitrogen__1gN/m2
+1.00000           'FERAMT(1)' 
+0.00000           'FERAMT(2)' 
+0.00000           'FERAMT(3)' 
+0.00000           'AUFERT'    
+PS1   Superphosphate__125_kg/ha
+0.00000           'FERAMT(1)' 
+1.12500           'FERAMT(2)' 
+1.37500           'FERAMT(3)' 
+0.00000           'AUFERT'    
+PS2   Superphosphate__250_kg/ha
+0.00000           'FERAMT(1)' 
+2.25000           'FERAMT(2)' 
+2.75000           'FERAMT(3)' 
+0.00000           'AUFERT'    
+PS3   Superphosphate__188_kg/ha
+0.00000           'FERAMT(1)' 
+1.75000           'FERAMT(2)' 
+2.07000           'FERAMT(3)' 
+0.00000           'AUFERT'    
+PS4   Superphosphate__376_kg/ha
+0.00000           'FERAMT(1)' 
+3.50000           'FERAMT(2)' 
+4.14000           'FERAMT(3)' 
+0.00000           'AUFERT'    
+PS5   Superphosphate__564_kg/ha
+0.00000           'FERAMT(1)' 
+5.25000           'FERAMT(2)' 
+6.21000           'FERAMT(3)' 
+0.00000           'AUFERT'    
+N000P000K000
+000.00000           'FERAMT(1)'
+000.00000           'FERAMT(2)'
+000.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N000P050K000
+000.00000           'FERAMT(1)'
+050.00000           'FERAMT(2)'
+000.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N098P139K096
+098.00000           'FERAMT(1)'
+139.00000           'FERAMT(2)'
+096.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N149P118K140
+149.00000           'FERAMT(1)'
+118.00000           'FERAMT(2)'
+140.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N142P112K108
+142.00000           'FERAMT(1)'
+112.00000           'FERAMT(2)'
+108.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N153P084K144
+153.00000           'FERAMT(1)'
+084.00000           'FERAMT(2)'
+144.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N094P098K090
+094.00000           'FERAMT(1)'
+098.00000           'FERAMT(2)'
+090.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N177P112K132
+177.00000           'FERAMT(1)'
+112.00000           'FERAMT(2)'
+132.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N095P070K066
+095.00000           'FERAMT(1)'
+070.00000           'FERAMT(2)'
+066.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N158P112K108
+158.00000           'FERAMT(1)'
+112.00000           'FERAMT(2)'
+108.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N176P122K130
+176.00000           'FERAMT(1)'
+122.00000           'FERAMT(2)'
+130.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N127P098K090
+127.00000           'FERAMT(1)'
+098.00000           'FERAMT(2)'
+090.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N017P085K060
+017.00000           'FERAMT(1)'
+085.00000           'FERAMT(2)'
+060.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N086P070K090
+086.00000           'FERAMT(1)'
+070.00000           'FERAMT(2)'
+090.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N177P115K132
+177.00000           'FERAMT(1)'
+115.00000           'FERAMT(2)'
+132.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N136P100K090
+136.00000           'FERAMT(1)'
+100.00000           'FERAMT(2)'
+090.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N020P100K072
+020.00000           'FERAMT(1)'
+100.00000           'FERAMT(2)'
+072.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N054P050K060
+054.00000           'FERAMT(1)'
+050.00000           'FERAMT(2)'
+060.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N168P100K090
+168.00000           'FERAMT(1)'
+100.00000           'FERAMT(2)'
+090.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N137P110K108
+137.00000           'FERAMT(1)'
+110.00000           'FERAMT(2)'
+108.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N152P210K198
+152.00000           'FERAMT(1)'
+210.00000           'FERAMT(2)'
+198.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N004P020K020
+004.00000           'FERAMT(1)'
+020.00000           'FERAMT(2)'
+020.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N008P020K020
+008.00000           'FERAMT(1)'
+020.00000           'FERAMT(2)'
+020.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N012P017K011
+012.00000           'FERAMT(1)'
+017.00000           'FERAMT(2)'
+011.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N144P072K136
+144.00000           'FERAMT(1)'
+072.00000           'FERAMT(2)'
+136.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N164P088K088
+164.00000           'FERAMT(1)'
+088.00000           'FERAMT(2)'
+088.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N164P054K093
+164.00000           'FERAMT(1)'
+054.00000           'FERAMT(2)'
+093.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N154P054K114
+154.00000           'FERAMT(1)'
+054.00000           'FERAMT(2)'
+114.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N144P076K133
+144.00000           'FERAMT(1)'
+076.00000           'FERAMT(2)'
+133.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N162P104K116
+162.00000           'FERAMT(1)'
+104.00000           'FERAMT(2)'
+116.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N128P062K117
+128.00000           'FERAMT(1)'
+062.00000           'FERAMT(2)'
+117.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N014P062K075
+014.00000           'FERAMT(1)'
+062.00000           'FERAMT(2)'
+075.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N018P078K087
+018.00000           'FERAMT(1)'
+078.00000           'FERAMT(2)'
+087.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N104P068K058
+104.00000           'FERAMT(1)'
+068.00000           'FERAMT(2)'
+058.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N100P052K058
+100.00000           'FERAMT(1)'
+052.00000           'FERAMT(2)'
+058.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N000P070K116
+000.00000           'FERAMT(1)'
+070.00000           'FERAMT(2)'
+116.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N138P078K116
+138.00000           'FERAMT(1)'
+078.00000           'FERAMT(2)'
+116.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N019P083K133
+019.00000           'FERAMT(1)'
+083.00000           'FERAMT(2)'
+133.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N163P104K145
+163.00000           'FERAMT(1)'
+104.00000           'FERAMT(2)'
+145.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N019P083K128
+019.00000           'FERAMT(1)'
+083.00000           'FERAMT(2)'
+128.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N164P104K145
+164.00000           'FERAMT(1)'
+104.00000           'FERAMT(2)'
+145.00000           'FERAMT(3)'
+0.00000           'AUFERT'
+N162P094K122
+162.00000           'FERAMT(1)'
+094.00000           'FERAMT(2)'
+122.00000           'FERAMT(3)'
+0.00000           'AUFERT'

@@ -1,0 +1,78 @@
+***  Installation Started 03/30/21 15:24  ***
+Title: Century 4.0 Installation
+Source: C:\Users\Raul\Downloads\cent40.exe
+Made Dir: C:\century
+File Copy: C:\century\UNWISE.EXE
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\Century 4.0
+RegDB Val: Century 4.0
+RegDB Name: DisplayName
+RegDB Root: 2
+RegDB Old: Century 4.0
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\Century 4.0
+RegDB Val: C:\century\UNWISE.EXE C:\century\INSTALL.LOG
+RegDB Name: UninstallString
+RegDB Root: 2
+RegDB Old: C:\century\UNWISE.EXE C:\century\INSTALL.LOG
+File Copy: C:\century\Cent_man.hlp
+File Copy: C:\century\get_start.wri
+File Copy: C:\century\readme.txt
+File Copy: C:\century\Cent40.hlp
+File Copy: C:\century\tsavan.sch
+File Copy: C:\century\tsavan.100
+File Copy: C:\century\trpfix.100
+File Copy: C:\century\tropeg.sch
+File Copy: C:\century\tropeg.100
+File Copy: C:\century\trem.def
+File Copy: C:\century\trem.100
+File Copy: C:\century\tree.def
+File Copy: C:\century\tree.100
+File Copy: C:\century\tdecid.sch
+File Copy: C:\century\tdecid.100
+File Copy: C:\century\tconif.sch
+File Copy: C:\century\tconif.100
+File Copy: C:\century\site.def
+File Copy: C:\century\omad.def
+File Copy: C:\century\omad.100
+File Copy: C:\century\irri.def
+File Copy: C:\century\irri.100
+File Copy: C:\century\harv.def
+File Copy: C:\century\harv.100
+File Copy: C:\century\graz.def
+File Copy: C:\century\graz.100
+File Copy: C:\century\gfix.100
+File Copy: C:\century\fix.def
+File Copy: C:\century\fix.100
+File Copy: C:\century\fire.def
+File Copy: C:\century\fire.100
+File Copy: C:\century\ffix.100
+File Copy: C:\century\fert.def
+File Copy: C:\century\fert.100
+File Copy: C:\century\drytrpfi.100
+File Copy: C:\century\drygfix.100
+File Copy: C:\century\dryffix.100
+File Copy: C:\century\cult.def
+File Copy: C:\century\cult.100
+File Copy: C:\century\crop.def
+File Copy: C:\century\crop.100
+File Copy: C:\century\c4grs.sch
+File Copy: C:\century\c4grs.100
+File Copy: C:\century\c3grs.sch
+File Copy: C:\century\c3grs.100
+File Copy: C:\century\borfix.100
+File Copy: C:\century\boreal.sch
+File Copy: C:\century\boreal.100
+File Copy: C:\century\aridsl.sch
+File Copy: C:\century\aridsl.100
+File Copy: C:\century\arcfix.100
+File Copy: C:\century\list100.exe
+File Copy: C:\century\file100.exe
+File Copy: C:\century\event100.exe
+File Copy: C:\century\century.exe
+File Copy: C:\century\tundra.100
+File Copy: C:\century\tundra.sch
+Shell Link: C:\Users\Raul\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\CENTURY 4.0\Century 4.0 Help.lnk
+Shell Link: C:\Users\Raul\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\CENTURY 4.0\README.lnk
+Shell Link: C:\Users\Raul\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\CENTURY 4.0\Getting Started.lnk
+Shell Link: C:\Users\Raul\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\CENTURY 4.0\Century Manual.lnk
+Shell Link: C:\Users\Raul\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\CENTURY 4.0\Uninstall Century 4.0.lnk
+User Rights: Admin

@@ -1,0 +1,5321 @@
+CANEX    revised sugarcane 
+600               'PRDX(1)' #Vallis et al has 650
+30.0              'PPDF(1)' #Blackburnm 1984, Clements et al., 1952, Glasziou, 1963
+45.0              'PPDF(2)' #Keating et al., 1998
+1.0               'PPDF(3)'
+3.5               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+1.0               'PLTMRF'
+150.0             'FULCAN'
+0.42              'FRTC(1)' smith 2005 
+0.18              'FRTC(2)' from .25 Vallis et al 1996, smith 2005
+4.0               'FRTC(3)' smith 2005
+400.0             'BIOMAX'     9/14/01 KP #was700, grasses are 400
+40.0              'PRAMN(1,1)'   12.0 #was20
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+100.0             'PRAMN(1,2)'  9/14/01 KP #was60
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+80.0              'PRAMX(1,1)'  25.0 #was40
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+200.0             'PRAMX(1,2)'  midpoint of wghtd avg from Villas et al #was140
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.07              'FLIGNI(1,1)' #.12 KP, Dinailson 6.5, Oliveira, 7.5  
+0.0               'FLIGNI(2,1)'
+0.10              'FLIGNI(1,2)' saw
+0.0               'FLIGNI(2,2)'
+0.001             'HIMAX'
+0.3               'HIWSF'                 0.0
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.0               'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.0               'VLOSSP'
+0.0               'FSDETH(1)'
+1.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+800.0             'FSDETH(4)'#WAS 800
+0.1               'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter 
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.003             'SNFXMX(1)'#considering 15 gN fixed and 3000 g C added year was 0.001
+-15.0             'DEL13C'
+1.0               'CO2IPR(1)'       0.0  changed to Alister's C4 responses
+0.77              'CO2ITR(1)'       0.0
+1.0               'CO2ICE(1,1,1)'   0.0
+1.0               'CO2ICE(1,1,2)'   0.0
+1.0               'CO2ICE(1,1,3)'   0.0
+1.0               'CO2ICE(1,2,1)'   0.0
+1.0               'CO2ICE(1,2,2)'   0.0
+1.0               'CO2ICE(1,2,3)'   0.0
+1.0               'CO2IRS(1)'       0.0
+CANEL    low yield sugarcane 
+440               'PRDX(1)' 
+30.0              'PPDF(1)' #Blackburnm 1984, Clements et al., 1952, Glasziou, 1963
+45.0              'PPDF(2)' #Keating et al., 1998
+1.0               'PPDF(3)'
+3.5               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+1.0               'PLTMRF'
+150.0             'FULCAN'
+0.42              'FRTC(1)' smith 2005 
+0.18              'FRTC(2)' from .25 Vallis et al 1996, smith 2005
+4.0               'FRTC(3)' smith 2005
+400.0             'BIOMAX'     9/14/01 KP #was700, grasses are 400
+40.0              'PRAMN(1,1)'   12.0 #was20
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+100.0             'PRAMN(1,2)'  9/14/01 KP #was60
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+80.0              'PRAMX(1,1)'  25.0 #was40
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+200.0             'PRAMX(1,2)'  midpoint of wghtd avg from Villas et al #was140
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.07              'FLIGNI(1,1)' #.12 KP, Dinailson 6.5, Oliveira, 7.5  
+0.0               'FLIGNI(2,1)'
+0.10              'FLIGNI(1,2)' saw
+0.0               'FLIGNI(2,2)'
+0.001             'HIMAX'
+0.3               'HIWSF'                 0.0
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.0               'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.0               'VLOSSP'
+0.0               'FSDETH(1)'
+1.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+800.0             'FSDETH(4)'#WAS 800
+0.1               'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter 
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.003             'SNFXMX(1)'#considering 15 gN fixed and 3000 g C added year was 0.001
+-15.0             'DEL13C'
+1.0               'CO2IPR(1)'       0.0  changed to Alister's C4 responses
+0.77              'CO2ITR(1)'       0.0
+1.0               'CO2ICE(1,1,1)'   0.0
+1.0               'CO2ICE(1,1,2)'   0.0
+1.0               'CO2ICE(1,1,3)'   0.0
+1.0               'CO2ICE(1,2,1)'   0.0
+1.0               'CO2ICE(1,2,2)'   0.0
+1.0               'CO2ICE(1,2,3)'   0.0
+1.0               'CO2IRS(1)'       0.0
+CANELM     low yield sugarcane burned Maravilhas 
+330               'PRDX(1)' #Vallis et al has 650
+30.0              'PPDF(1)' #Blackburnm 1984, Clements et al., 1952, Glasziou, 1963
+45.0              'PPDF(2)' #Keating et al., 1998
+1.0               'PPDF(3)'
+3.5               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+1.0               'PLTMRF'
+150.0             'FULCAN'
+0.42              'FRTC(1)' smith 2005 
+0.18              'FRTC(2)' from .25 Vallis et al 1996, smith 2005
+4.0               'FRTC(3)' smith 2005
+400.0             'BIOMAX'     9/14/01 KP #was700, grasses are 400
+40.0              'PRAMN(1,1)'   12.0 #was20
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+100.0             'PRAMN(1,2)'  9/14/01 KP #was60
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+80.0              'PRAMX(1,1)'  25.0 #was40
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+200.0             'PRAMX(1,2)'  midpoint of wghtd avg from Villas et al #was140
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.07              'FLIGNI(1,1)' #.12 KP, Dinailson 6.5, Oliveira, 7.5  
+0.0               'FLIGNI(2,1)'
+0.10              'FLIGNI(1,2)' saw
+0.0               'FLIGNI(2,2)'
+0.001             'HIMAX'
+0.3               'HIWSF'                 0.0
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.0               'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.0               'VLOSSP'
+0.0               'FSDETH(1)'
+1.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+800.0             'FSDETH(4)'#WAS 800
+0.1               'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter 
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.003             'SNFXMX(1)'#considering 15 gN fixed and 3000 g C added year was 0.001
+-15.0             'DEL13C'
+1.0               'CO2IPR(1)'       0.0  changed to Alister's C4 responses
+0.77              'CO2ITR(1)'       0.0
+1.0               'CO2ICE(1,1,1)'   0.0
+1.0               'CO2ICE(1,1,2)'   0.0
+1.0               'CO2ICE(1,1,3)'   0.0
+1.0               'CO2ICE(1,2,1)'   0.0
+1.0               'CO2ICE(1,2,2)'   0.0
+1.0               'CO2ICE(1,2,3)'   0.0
+1.0               'CO2IRS(1)'       0.0
+CANE    sugarcane from c6 corn
+700.0             'PRDX(1)'  saw
+30.0              'PPDF(1)'
+45.0              'PPDF(2)'
+1.0               'PPDF(3)'
+2.5               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+1.0               'PLTMRF'
+150.0             'FULCAN'
+0.25              'FRTC(1)'  saw
+0.25              'FRTC(2)'
+1.0               'FRTC(3)' saw
+700.0             'BIOMAX'     9/14/01 KP
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+100.0             'PRAMX(1,1)'  25.0 #was 40
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0             'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.10              'FLIGNI(1,1)' .12 KP
+0.0               'FLIGNI(2,1)'
+0.10              'FLIGNI(1,2)' saw
+0.0               'FLIGNI(2,2)'
+0.00              'HIMAX'
+0.3               'HIWSF'                 0.0
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.0               'EFRGRN(1)'
+0.0               'EFRGRN(2)'
+0.0               'EFRGRN(3)'
+0.0               'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+1200.0            'FSDETH(4)'#mg was 800
+0.1               'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.001             'SNFXMX(1)'
+-15.0             'DEL13C'
+1.0               'CO2IPR(1)'       0.0  changed to Alister's C4 responses
+0.77              'CO2ITR(1)'       0.0
+1.0               'CO2ICE(1,1,1)'   0.0
+1.0               'CO2ICE(1,1,2)'   0.0
+1.0               'CO2ICE(1,1,3)'   0.0
+1.0               'CO2ICE(1,2,1)'   0.0
+1.0               'CO2ICE(1,2,2)'   0.0
+1.0               'CO2ICE(1,2,3)'   0.0
+1.0               'CO2IRS(1)'       0.0
+TKNZ  Tropical_grass_aka_KONZA
+700        'PRDX(1)'
+30.00000          'PPDF(1)'   
+45.00000          'PPDF(2)'   
+1.00000           'PPDF(3)'   
+2.50000           'PPDF(4)'   
+1.00000           'BIOFLG'    
+60.00000          'BIOK5'     
+1.00000           'PLTMRF'    
+100.00000         'FULCAN'    
+0.00000           'FRTC(1)'   
+0.00000           'FRTC(2)'   
+0.00000           'FRTC(3)'   
+400.00000         'BIOMAX'    
+20.00000          'PRAMN(1,1)'
+390.00000         'PRAMN(2,1)'
+340.00000         'PRAMN(3,1)'
+30.00000          'PRAMN(1,2)'
+390.00000         'PRAMN(2,2)'
+340.00000         'PRAMN(3,2)'
+30.00000          'PRAMX(1,1)'
+440.00000         'PRAMX(2,1)'
+440.00000         'PRAMX(3,1)'
+80.00000          'PRAMX(1,2)'
+440.00000         'PRAMX(2,2)'
+440.00000         'PRAMX(3,2)'
+60.00000          'PRBMN(1,1)'
+390.00000         'PRBMN(2,1)'
+340.00000         'PRBMN(3,1)'
+0.00000           'PRBMN(1,2)'
+0.00000           'PRBMN(2,2)'
+0.00000           'PRBMN(3,2)'
+80.00000          'PRBMX(1,1)'
+420.00000         'PRBMX(2,1)'
+420.00000         'PRBMX(3,1)'
+0.00000           'PRBMX(1,2)'
+0.00000           'PRBMX(2,2)'
+0.00000           'PRBMX(3,2)'
+0.02000           'FLIGNI(1,1)'
+0.00120           'FLIGNI(2,1)'
+0.26000           'FLIGNI(1,2)'
+-0.00150          'FLIGNI(2,2)'
+0.00000           'HIMAX'     
+0.00000           'HIWSF'     
+0.00000           'HIMON(1)'  
+0.00000           'HIMON(2)'  
+0.50000           'EFRGRN(1)' 
+0.50000           'EFRGRN(2)' 
+0.50000           'EFRGRN(3)' 
+0.04000           'VLOSSP'    
+0.20000           'FSDETH(1)' 
+0.95000           'FSDETH(2)' 
+0.20000           'FSDETH(3)' 
+150.00000         'FSDETH(4)' 
+0.15000           'FALLRT'    
+0.05000           'RDR'       
+2.00000           'RTDTMP'    
+0.50000           'CRPRTF(1)' 
+0.00000           'CRPRTF(2)' 
+0.00000           'CRPRTF(3)' 
+0.00000           'SNFXMX(1)' 
+27.00000          'DEL13C'    
+1.20000           'CO2IPR'    
+0.80000           'CO2ITR'    
+1.20000           'CO2ICE(1,1,1)'
+1.00000           'CO2ICE(1,1,2)'
+1.00000           'CO2ICE(1,1,3)'
+1.20000           'CO2ICE(1,2,1)'
+1.00000           'CO2ICE(1,2,2)'
+1.00000           'CO2ICE(1,2,3)'
+1.00000           'CO2IRS(1)' 
+TKNZ2    Amazon Pasture
+300.00            'PRDX(1)'   
+30.00000          'PPDF(1)'   
+45.00000          'PPDF(2)'   
+1.00000           'PPDF(3)'   
+2.50000           'PPDF(4)'   
+1.00000           'BIOFLG'    
+60.00000          'BIOK5'     
+0                 'PLTMRF'    
+150               'FULCAN'    
+0.00000           'FRTC(1)'   
+0.00000           'FRTC(2)'   
+0.00000           'FRTC(3)'   
+400.00000         'BIOMAX'    
+30                'PRAMN(1,1)'
+390.00000         'PRAMN(2,1)'
+340.00000         'PRAMN(3,1)'
+90                'PRAMN(1,2)'
+390.00000         'PRAMN(2,2)'
+340.00000         'PRAMN(3,2)'
+35                'PRAMX(1,1)'
+440.00000         'PRAMX(2,1)'
+440.00000         'PRAMX(3,1)'
+95                'PRAMX(1,2)'
+440.00000         'PRAMX(2,2)'
+440.00000         'PRAMX(3,2)'
+50                'PRBMN(1,1)'
+390.00000         'PRBMN(2,1)'
+340.00000         'PRBMN(3,1)'
+0.00000           'PRBMN(1,2)'
+0.00000           'PRBMN(2,2)'
+0.00000           'PRBMN(3,2)'
+55                'PRBMX(1,1)'
+420.00000         'PRBMX(2,1)'
+420.00000         'PRBMX(3,1)'
+0.00000           'PRBMX(1,2)'
+0.00000           'PRBMX(2,2)'
+0.00000           'PRBMX(3,2)'
+0.02000           'FLIGNI(1,1)'
+0.012             'FLIGNI(2,1)'
+0.26000           'FLIGNI(1,2)'
+-0.00150          'FLIGNI(2,2)'
+0.00000           'HIMAX'     
+0.00000           'HIWSF'     
+0.00000           'HIMON(1)'  
+0.00000           'HIMON(2)'  
+0                 'EFRGRN(1)' 
+0                 'EFRGRN(2)' 
+0                 'EFRGRN(3)' 
+0.15              'VLOSSP'    
+0.20000           'FSDETH(1)' 
+0.95000           'FSDETH(2)' 
+0.20000           'FSDETH(3)' 
+150.00000         'FSDETH(4)' 
+0.15000           'FALLRT'    
+0.05000           'RDR'       
+2.00000           'RTDTMP'    
+0                 'CRPRTF(1)' 
+0.00000           'CRPRTF(2)' 
+0.00000           'CRPRTF(3)' 
+0.05              'SNFXMX(1)' 
+-15.000           'DEL13C'    
+1.20000           'CO2IPR'    
+0.80000           'CO2ITR'    
+1.20000           'CO2ICE(1,1,1)'
+1.00000           'CO2ICE(1,1,2)'
+1.00000           'CO2ICE(1,1,3)'
+1.20000           'CO2ICE(1,2,1)'
+1.00000           'CO2ICE(1,2,2)'
+1.00000           'CO2ICE(1,2,3)'
+1.00000           'CO2IRS(1)' 
+TKNZ3    Amazon Pasture for Suia-Missu
+200.00            'PRDX(1)'   
+20.00000          'PPDF(1)'   
+35.00000          'PPDF(2)'   
+1.00000           'PPDF(3)'   
+2.50000           'PPDF(4)'   
+1.00000           'BIOFLG'    
+60.00000          'BIOK5'     
+0                 'PLTMRF'    
+150               'FULCAN'    
+0.00000           'FRTC(1)'   
+0.00000           'FRTC(2)'   
+0.00000           'FRTC(3)'   
+400.00000         'BIOMAX'    
+30                'PRAMN(1,1)'
+390.00000         'PRAMN(2,1)'
+340.00000         'PRAMN(3,1)'
+90                'PRAMN(1,2)'
+390.00000         'PRAMN(2,2)'
+340.00000         'PRAMN(3,2)'
+35                'PRAMX(1,1)'
+440.00000         'PRAMX(2,1)'
+440.00000         'PRAMX(3,1)'
+95                'PRAMX(1,2)'
+440.00000         'PRAMX(2,2)'
+440.00000         'PRAMX(3,2)'
+50                'PRBMN(1,1)'
+390.00000         'PRBMN(2,1)'
+340.00000         'PRBMN(3,1)'
+0.00000           'PRBMN(1,2)'
+0.00000           'PRBMN(2,2)'
+0.00000           'PRBMN(3,2)'
+55                'PRBMX(1,1)'
+420.00000         'PRBMX(2,1)'
+420.00000         'PRBMX(3,1)'
+0.00000           'PRBMX(1,2)'
+0.00000           'PRBMX(2,2)'
+0.00000           'PRBMX(3,2)'
+0.02000           'FLIGNI(1,1)'
+0.012             'FLIGNI(2,1)'
+0.26000           'FLIGNI(1,2)'
+-0.00150          'FLIGNI(2,2)'
+0.00000           'HIMAX'     
+0.00000           'HIWSF'     
+0.00000           'HIMON(1)'  
+0.00000           'HIMON(2)'  
+0                 'EFRGRN(1)' 
+0                 'EFRGRN(2)' 
+0                 'EFRGRN(3)' 
+0.15              'VLOSSP'    
+0.20000           'FSDETH(1)' 
+0.95000           'FSDETH(2)' 
+0.20000           'FSDETH(3)' 
+150.00000         'FSDETH(4)' 
+0.15000           'FALLRT'    
+0.05000           'RDR'       
+2.00000           'RTDTMP'    
+0                 'CRPRTF(1)' 
+0.00000           'CRPRTF(2)' 
+0.00000           'CRPRTF(3)' 
+0.05              'SNFXMX(1)' 
+-15.000           'DEL13C'    
+1.20000           'CO2IPR'    
+0.80000           'CO2ITR'    
+1.20000           'CO2ICE(1,1,1)'
+1.00000           'CO2ICE(1,1,2)'
+1.00000           'CO2ICE(1,1,3)'
+1.20000           'CO2ICE(1,2,1)'
+1.00000           'CO2ICE(1,2,2)'
+1.00000           'CO2ICE(1,2,3)'
+1.00000           'CO2IRS(1)' 
+TKNZ4    Amazon Pasture for AG and RA
+200.00            'PRDX(1)'   
+30.00000          'PPDF(1)'   
+45.00000          'PPDF(2)'   
+1.00000           'PPDF(3)'   
+2.50000           'PPDF(4)'   
+1.00000           'BIOFLG'    
+60.00000          'BIOK5'     
+0                 'PLTMRF'    
+150               'FULCAN'    
+0.00000           'FRTC(1)'   
+0.00000           'FRTC(2)'   
+0.00000           'FRTC(3)'   
+400.00000         'BIOMAX'    
+30                'PRAMN(1,1)'
+390.00000         'PRAMN(2,1)'
+340.00000         'PRAMN(3,1)'
+90                'PRAMN(1,2)'
+390.00000         'PRAMN(2,2)'
+340.00000         'PRAMN(3,2)'
+35                'PRAMX(1,1)'
+440.00000         'PRAMX(2,1)'
+440.00000         'PRAMX(3,1)'
+95                'PRAMX(1,2)'
+440.00000         'PRAMX(2,2)'
+440.00000         'PRAMX(3,2)'
+50                'PRBMN(1,1)'
+390.00000         'PRBMN(2,1)'
+340.00000         'PRBMN(3,1)'
+0.00000           'PRBMN(1,2)'
+0.00000           'PRBMN(2,2)'
+0.00000           'PRBMN(3,2)'
+55                'PRBMX(1,1)'
+420.00000         'PRBMX(2,1)'
+420.00000         'PRBMX(3,1)'
+0.00000           'PRBMX(1,2)'
+0.00000           'PRBMX(2,2)'
+0.00000           'PRBMX(3,2)'
+0.02000           'FLIGNI(1,1)'
+0.012             'FLIGNI(2,1)'
+0.26000           'FLIGNI(1,2)'
+-0.00150          'FLIGNI(2,2)'
+0.00000           'HIMAX'     
+0.00000           'HIWSF'     
+0.00000           'HIMON(1)'  
+0.00000           'HIMON(2)'  
+0                 'EFRGRN(1)' 
+0                 'EFRGRN(2)' 
+0                 'EFRGRN(3)' 
+0.15              'VLOSSP'    
+0.20000           'FSDETH(1)' 
+0.95000           'FSDETH(2)' 
+0.20000           'FSDETH(3)' 
+150.00000         'FSDETH(4)' 
+0.15000           'FALLRT'    
+0.05000           'RDR'       
+2.00000           'RTDTMP'    
+0                 'CRPRTF(1)' 
+0.00000           'CRPRTF(2)' 
+0.00000           'CRPRTF(3)' 
+0.05              'SNFXMX(1)' 
+-15.000           'DEL13C'    
+1.20000           'CO2IPR'    
+0.80000           'CO2ITR'    
+1.20000           'CO2ICE(1,1,1)'
+1.00000           'CO2ICE(1,1,2)'
+1.00000           'CO2ICE(1,1,3)'
+1.20000           'CO2ICE(1,2,1)'
+1.00000           'CO2ICE(1,2,2)'
+1.00000           'CO2ICE(1,2,3)'
+1.00000           'CO2IRS(1)' 
+JOPA    Pasture at Sta Carmem, degraded
+150.00            'PRDX(1)'   
+18.3 000          'PPDF(1)'   
+31.80000          'PPDF(2)'   
+1.00000           'PPDF(3)'   
+2.50000           'PPDF(4)'   
+1.00000           'BIOFLG'    
+60.00000          'BIOK5'     
+0                 'PLTMRF'    
+150               'FULCAN'    
+0.00000           'FRTC(1)'   
+0.00000           'FRTC(2)'   
+0.00000           'FRTC(3)'   
+400.00000         'BIOMAX'    
+30                'PRAMN(1,1)'
+390.00000         'PRAMN(2,1)'
+340.00000         'PRAMN(3,1)'
+90                'PRAMN(1,2)'
+390.00000         'PRAMN(2,2)'
+340.00000         'PRAMN(3,2)'
+35                'PRAMX(1,1)'
+440.00000         'PRAMX(2,1)'
+440.00000         'PRAMX(3,1)'
+95                'PRAMX(1,2)'
+440.00000         'PRAMX(2,2)'
+440.00000         'PRAMX(3,2)'
+50                'PRBMN(1,1)'
+390.00000         'PRBMN(2,1)'
+340.00000         'PRBMN(3,1)'
+0.00000           'PRBMN(1,2)'
+0.00000           'PRBMN(2,2)'
+0.00000           'PRBMN(3,2)'
+55                'PRBMX(1,1)'
+420.00000         'PRBMX(2,1)'
+420.00000         'PRBMX(3,1)'
+0.00000           'PRBMX(1,2)'
+0.00000           'PRBMX(2,2)'
+0.00000           'PRBMX(3,2)'
+0.02000           'FLIGNI(1,1)'
+0.012             'FLIGNI(2,1)'
+0.26000           'FLIGNI(1,2)'
+-0.00150          'FLIGNI(2,2)'
+0.00000           'HIMAX'     
+0.00000           'HIWSF'     
+0.00000           'HIMON(1)'  
+0.00000           'HIMON(2)'  
+0                 'EFRGRN(1)' 
+0                 'EFRGRN(2)' 
+0                 'EFRGRN(3)' 
+0.15              'VLOSSP'    
+0.20000           'FSDETH(1)' 
+0.95000           'FSDETH(2)' 
+0.20000           'FSDETH(3)' 
+150.00000         'FSDETH(4)' 
+0.15000           'FALLRT'    
+0.05000           'RDR'       
+2.00000           'RTDTMP'    
+0                 'CRPRTF(1)' 
+0.00000           'CRPRTF(2)' 
+0.00000           'CRPRTF(3)' 
+0.05              'SNFXMX(1)' 
+-15.000           'DEL13C'    
+1.20000           'CO2IPR'    
+0.80000           'CO2ITR'    
+1.20000           'CO2ICE(1,1,1)'
+1.00000           'CO2ICE(1,1,2)'
+1.00000           'CO2ICE(1,1,3)'
+1.20000           'CO2ICE(1,2,1)'
+1.00000           'CO2ICE(1,2,2)'
+1.00000           'CO2ICE(1,2,3)'
+1.00000           'CO2IRS(1)' 
+JOPA2    Pasture at Sta Carmem, well managed
+500.00            'PRDX(1)'   
+30.00000          'PPDF(1)'   
+45.00000          'PPDF(2)'   
+1.00000           'PPDF(3)'   
+2.50000           'PPDF(4)'   
+1.00000           'BIOFLG'    
+60.00000          'BIOK5'     
+0                 'PLTMRF'    
+150               'FULCAN'    
+0.00000           'FRTC(1)'   
+0.00000           'FRTC(2)'   
+0.00000           'FRTC(3)'   
+400.00000         'BIOMAX'    
+30                'PRAMN(1,1)'
+390.00000         'PRAMN(2,1)'
+340.00000         'PRAMN(3,1)'
+90                'PRAMN(1,2)'
+390.00000         'PRAMN(2,2)'
+340.00000         'PRAMN(3,2)'
+35                'PRAMX(1,1)'
+440.00000         'PRAMX(2,1)'
+440.00000         'PRAMX(3,1)'
+95                'PRAMX(1,2)'
+440.00000         'PRAMX(2,2)'
+440.00000         'PRAMX(3,2)'
+50                'PRBMN(1,1)'
+390.00000         'PRBMN(2,1)'
+340.00000         'PRBMN(3,1)'
+0.00000           'PRBMN(1,2)'
+0.00000           'PRBMN(2,2)'
+0.00000           'PRBMN(3,2)'
+55                'PRBMX(1,1)'
+420.00000         'PRBMX(2,1)'
+420.00000         'PRBMX(3,1)'
+0.00000           'PRBMX(1,2)'
+0.00000           'PRBMX(2,2)'
+0.00000           'PRBMX(3,2)'
+0.02000           'FLIGNI(1,1)'
+0.012             'FLIGNI(2,1)'
+0.26000           'FLIGNI(1,2)'
+-0.00150          'FLIGNI(2,2)'
+0.00000           'HIMAX'     
+0.00000           'HIWSF'     
+0.00000           'HIMON(1)'  
+0.00000           'HIMON(2)'  
+0                 'EFRGRN(1)' 
+0                 'EFRGRN(2)' 
+0                 'EFRGRN(3)' 
+0.15              'VLOSSP'    
+0.20000           'FSDETH(1)' 
+0.95000           'FSDETH(2)' 
+0.20000           'FSDETH(3)' 
+150.00000         'FSDETH(4)' 
+0.15000           'FALLRT'    
+0.05000           'RDR'       
+2.00000           'RTDTMP'    
+0                 'CRPRTF(1)' 
+0.00000           'CRPRTF(2)' 
+0.00000           'CRPRTF(3)' 
+0.05              'SNFXMX(1)' 
+-15.000           'DEL13C'    
+1.20000           'CO2IPR'    
+0.80000           'CO2ITR'    
+1.20000           'CO2ICE(1,1,1)'
+1.00000           'CO2ICE(1,1,2)'
+1.00000           'CO2ICE(1,1,3)'
+1.20000           'CO2ICE(1,2,1)'
+1.00000           'CO2ICE(1,2,2)'
+1.00000           'CO2ICE(1,2,3)'
+1.00000           'CO2IRS(1)' 
+W0    wheat_(1920_Iowa)low_yield
+150.0             'PRDX(1)'
+18.0              'PPDF(1)'
+35.0              'PPDF(2)'
+0.7               'PPDF(3)'
+5.0               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.4               'PLTMRF'
+150.0             'FULCAN'
+0.45              'FRTC(1)' 0.6 11/27/02 saw
+0.1               'FRTC(2)'
+3.0               'FRTC(3)'
+400.0             'BIOMAX'       9/14/01 k.p.
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.18              'FLIGNI(1,1)' .15 KP
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.30              'HIMAX'         0.3
+0.50              'HIWSF'         0.5
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw     0.0
+0.6               'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+200.0             'FSDETH(4)'
+0.12              'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+W1    wheat_low_harvest_index
+250.0             'PRDX(1)' 1/17/02 saw 240
+18.0              'PPDF(1)'
+35.0              'PPDF(2)'
+0.7               'PPDF(3)'
+5.0               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.4               'PLTMRF'
+150.0             'FULCAN'
+0.45               'FRTC(1)' 11/27/02 saw
+0.1               'FRTC(2)'
+3.0               'FRTC(3)'
+400.0              'BIOMAX'      9/14/01 KP
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.18              'FLIGNI(1,1)' .15 KP
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.3               'HIMAX'         0.3
+0.5              'HIWSF'         0.5
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)'   1/17/02 saw   0.0
+0.6               'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+200.0             'FSDETH(4)'
+0.12              'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+W2    wheat_medium_harvest_index
+250.0             'PRDX(1)'
+18.0              'PPDF(1)'
+35.0              'PPDF(2)'
+0.7               'PPDF(3)'
+5.0               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.4               'PLTMRF'
+150.0             'FULCAN'
+0.45              'FRTC(1)' 0.6 11/27/02 saw
+0.1               'FRTC(2)' 0.15 11/27/02 saw
+3.0               'FRTC(3)'
+400.0             'BIOMAX'      9/14/01 KP
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.18              'FLIGNI(1,1)' .15 KP
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.35              'HIMAX'         0.42  0.5
+0.5              'HIWSF'         0.5
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)'   1/17/02 saw
+0.65              'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+200.0             'FSDETH(4)'
+0.12              'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+W3    Wheat_high_harvest_index
+260.0             'PRDX(1)'
+18.0              'PPDF(1)'
+35.0              'PPDF(2)'
+0.7               'PPDF(3)'
+5.0               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.4               'PLTMRF'
+150.0             'FULCAN'
+0.45              'FRTC(1)' 0.6 11/27/02 saw
+0.1               'FRTC(2)' 0.15 11/27/02 saw
+3.0               'FRTC(3)'
+400.0             'BIOMAX'      9/14/01 KP
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)' 
+0.18              'FLIGNI(1,1)' .15 KP
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.41              'HIMAX'         0.42  0.5
+0.5               'HIWSF'         0.5
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)'   1/17/02 saw
+0.75              'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+200.0             'FSDETH(4)'
+0.12              'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+WW2S    soft winter wheat_medium_harvest_index
+300.0             'PRDX(1)'
+18.0              'PPDF(1)'
+35.0              'PPDF(2)'
+0.7               'PPDF(3)'
+5.0               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.4               'PLTMRF'
+150.0             'FULCAN'
+0.45              'FRTC(1)' 0.6 11/27/02 saw
+0.1               'FRTC(2)'  0.2 11/27/02 saw
+3.0               'FRTC(3)'
+400.0             'BIOMAX'      9/14/01 KP
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.18              'FLIGNI(1,1)' .15 KP
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.38              'HIMAX'        per Parton and Rasmussen 1994
+0.42              'HIWSF'         0.5
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)'  1/17/02 saw
+0.65              'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+200.0             'FSDETH(4)'
+0.12              'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+WW3S    soft winter Wheat_high_harvest_index
+450.0             'PRDX(1)' Increased from 300, MJE 9/30/02.
+18.0              'PPDF(1)'
+35.0              'PPDF(2)'
+0.7               'PPDF(3)'
+5.0               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.4               'PLTMRF'
+150.0             'FULCAN'
+0.45              'FRTC(1)' 0.6 11/27/02 saw
+0.1               'FRTC(2)'
+3.0               'FRTC(3)'
+400.0             'BIOMAX'      9/14/01 KP
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+60.0              'PRBMN(1,1)' 45
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)' 60
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.18              'FLIGNI(1,1)' .15 KP
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.45              'HIMAX'         0.42  0.5
+0.3              'HIWSF'         0.5
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)'   1/17/02 saw
+0.65              'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+200.0             'FSDETH(4)'
+0.12              'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+W4    Wheat_high_harvest_index(Akron)
+450.0             'PRDX(1)'  300.00 500.00 ric
+18.0              'PPDF(1)'
+35.0              'PPDF(2)'
+0.7               'PPDF(3)'
+5.0               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+1.0               'PLTMRF'  0.4 ric
+150.0             'FULCAN'
+0.45              'FRTC(1)' 0.6 11/27/02 saw
+0.1               'FRTC(2)'
+3.0               'FRTC(3)'
+400.0             'BIOMAX'    9/14/01 KP
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.18              'FLIGNI(1,1)' .15 KP
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.48              'HIMAX'         0.42  0.5 0.45 ric
+0.70              'HIWSF'         0.5  0.42 ric
+1.0               'HIMON(1)'      0.0
+0.0               'HIMON(2)'      0.0  1.0 ric
+0.75              'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+200.0             'FSDETH(4)'
+0.12              'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+SW1    Spring_wheat_low_harvest_index_(cold_tolerent)
+250.0             'PRDX(1)'   from 225 12/27/02 saw test
+18.0              'PPDF(1)' from 15 12/27/02 saw test
+35.0              'PPDF(2)' from 35 12/27/02 saw test
+0.7               'PPDF(3)'
+5.0               'PPDF(4)' from 5 12/30/02 saw test
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.4               'PLTMRF'
+150.0             'FULCAN'
+0.45              'FRTC(1)' 0.5 11/29/02 saw
+0.1               'FRTC(2)' 0.2 11/29/02 saw
+3.0               'FRTC(3)'  
+400.0             'BIOMAX'   from 400 12/31/02 saw test
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.18              'FLIGNI(1,1)' .15 KP
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.30               'HIMAX' from .33 12/27/02 saw test
+0.4               'HIWSF'         0.5
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)'   1/17/02 saw
+0.6               'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+200.0             'FSDETH(4)'
+0.12              'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+XSW2    Spring_wheat_medium_harvest_index_(cold_tolerent)
+325.0             'PRDX(1)'   600.0  for Saskatchawan?
+15.0              'PPDF(1)'
+32.0              'PPDF(2)'
+0.5               'PPDF(3)'
+5.0               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.4               'PLTMRF'
+150.0             'FULCAN'
+0.6               'FRTC(1)'
+0.1               'FRTC(2)'
+3.0               'FRTC(3)'
+400.0             'BIOMAX'     9/14/01 KP
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.18              'FLIGNI(1,1)' .15 KP
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.40              'HIMAX'         0.42
+0.25              'HIWSF'         0.5
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.65              'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+200.0             'FSDETH(4)'
+0.12              'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+SW2     Test Spring_wheat_(cold_tolerent)
+265.0             'PRDX(1)'   from 320 12/27/02 saw test
+18.0              'PPDF(1)' from 15 12/27/02 saw test
+35.0              'PPDF(2)' from 35 12/27/02 saw test
+0.7               'PPDF(3)'
+5.0               'PPDF(4)' from 5 12/30/02 saw test
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.4               'PLTMRF'
+150.0             'FULCAN'
+0.45              'FRTC(1)' 0.5 11/29/02 saw
+0.1               'FRTC(2)' 0.2 11/29/02 saw
+3.0               'FRTC(3)'  
+400.0             'BIOMAX'   from 400 12/31/02 saw test
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.18              'FLIGNI(1,1)' .15 KP
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.35              'HIMAX'   from .33 12/27/02 saw test
+0.40              'HIWSF'         0.5
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.65               'EFRGRN(1)' 
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+200.0             'FSDETH(4)'
+0.12              'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+XSW3    Spring_Wheat_high_harvest_index_(cold_tolerent)
+350.0             'PRDX(1)'   600.0  for Saskatchawan?
+15.0              'PPDF(1)'
+32.0              'PPDF(2)'
+0.5               'PPDF(3)'
+5.0               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.4               'PLTMRF'
+150.0             'FULCAN'
+0.6               'FRTC(1)'
+0.1               'FRTC(2)'
+3.0               'FRTC(3)'
+400.0              'BIOMAX'    9/14/01 KP
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.18              'FLIGNI(1,1)' .15 KP
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.45               'HIMAX'      0.5
+0.45              'HIWSF'         0.5
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.75              'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+200.0             'FSDETH(4)'
+0.12              'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+SW3    Test Spring_Wheat_(cold_tolerent)
+280.0             'PRDX(1)'   from 440 12/27/02 saw test
+18.0              'PPDF(1)'  from 15 12/27/02 saw test
+35.0              'PPDF(2)' from 35 12/27/02 saw test
+0.7               'PPDF(3)'
+5.0               'PPDF(4)' from 5 12/30/02 saw test
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.4               'PLTMRF'
+150.0             'FULCAN'
+0.45              'FRTC(1)' 0.5 11/29/02 saw
+0.1               'FRTC(2)' 0.2 11/29/02 saw
+3.0               'FRTC(3)'  
+200.0             'BIOMAX' from 400 12/31/02 saw test
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+400.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.18              'FLIGNI(1,1)' .15 KP
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.42              'HIMAX' from .33 12/27/02 saw test
+0.40              'HIWSF'         0.5
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.75              'EFRGRN(1)' from .75 12/31/02 saw test
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+200.0             'FSDETH(4)'
+0.12              'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+C-HI  corn-highest-yield
+650.0             'PRDX(1)'
+30.0              'PPDF(1)'
+45.0              'PPDF(2)'
+1.0               'PPDF(3)'
+2.5               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.5               'PLTMRF'
+150.0             'FULCAN'
+0.45              'FRTC(1)' 0.4 11/27/02 saw
+0.1               'FRTC(2)'
+3.0               'FRTC(3)' 3 11/27/02 saw
+700.0             'BIOMAX'      9/14/01 KP
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.10              'FLIGNI(1,1)' .12 KP
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.5               'HIMAX'
+0.5               'HIWSF'
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.75              'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+500.0             'FSDETH(4)'
+0.1               'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-15.0             'DEL13C'
+1.0               'CO2IPR(1)'       0.0  changed to Alister's C4 responses
+0.77              'CO2ITR(1)'       0.0
+1.0               'CO2ICE(1,1,1)'   0.0
+1.0               'CO2ICE(1,1,2)'   0.0
+1.0               'CO2ICE(1,1,3)'   0.0
+1.0               'CO2ICE(1,2,1)'   0.0
+1.0               'CO2ICE(1,2,2)'   0.0
+1.0               'CO2ICE(1,2,3)'   0.0
+1.0               'CO2IRS(1)'       0.0
+C6    corn-c6
+620.0             'PRDX(1)' 580 11/27/02 saw
+30.0              'PPDF(1)'
+45.0              'PPDF(2)'
+1.0               'PPDF(3)'
+2.5               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.5               'PLTMRF'
+150.0             'FULCAN'
+0.45              'FRTC(1)' 0.4 11/27/02 saw
+0.1               'FRTC(2)'
+3.0               'FRTC(3)' 3 11/27/02 saw
+700.0             'BIOMAX'     9/14/01 KP
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.10              'FLIGNI(1,1)' .12 KP
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.54              'HIMAX'                  .5
+0.3               'HIWSF'                 0.0
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.75              'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+500.0             'FSDETH(4)'
+0.1               'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-15.0             'DEL13C'
+1.0               'CO2IPR(1)'       0.0  changed to Alister's C4 responses
+0.77              'CO2ITR(1)'       0.0
+1.0               'CO2ICE(1,1,1)'   0.0
+1.0               'CO2ICE(1,1,2)'   0.0
+1.0               'CO2ICE(1,1,3)'   0.0
+1.0               'CO2ICE(1,2,1)'   0.0
+1.0               'CO2ICE(1,2,2)'   0.0
+1.0               'CO2ICE(1,2,3)'   0.0
+1.0               'CO2IRS(1)'       0.0
+CDRY  Modern dry land corn -c5  based on Sterling/Stratton/Walsh data)
+620.0             'PRDX(1)'
+30.0              'PPDF(1)'
+45.0              'PPDF(2)'
+1.0               'PPDF(3)'
+2.5               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.5               'PLTMRF'
+150.0             'FULCAN'
+0.5               'FRTC(1)'
+0.1               'FRTC(2)'
+3.0               'FRTC(3)' 
+400.0             'BIOMAX'      700
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.10              'FLIGNI(1,1)' .12 KP
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.54              'HIMAX'
+0.20              'HIWSF'                 0.0
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.75              'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+500.0             'FSDETH(4)'
+0.1               'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-15.0             'DEL13C'
+1.0               'CO2IPR(1)'       0.0  changed to Alister's C4 responses
+0.77              'CO2ITR(1)'       0.0
+1.0               'CO2ICE(1,1,1)'   0.0
+1.0               'CO2ICE(1,1,2)'   0.0
+1.0               'CO2ICE(1,1,3)'   0.0
+1.0               'CO2ICE(1,2,1)'   0.0
+1.0               'CO2ICE(1,2,2)'   0.0
+1.0               'CO2ICE(1,2,3)'   0.0
+1.0               'CO2IRS(1)'       0.0
+C5                 C5 corn
+520.0             'PRDX(1)'
+30.0              'PPDF(1)'
+45.0              'PPDF(2)'
+1.0               'PPDF(3)'
+2.5               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.5               'PLTMRF'
+150.0             'FULCAN'
+0.45              'FRTC(1)' 0.4 11/27/02 saw
+0.1               'FRTC(2)'
+3.0               'FRTC(3)' 3 11/27/02 saw
+700.0             'BIOMAX'     9/14/01 KP
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.10              'FLIGNI(1,1)' .12 KP
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.53              'HIMAX'                  .5
+0.3               'HIWSF'                 0.0
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.75              'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+500.0             'FSDETH(4)'
+0.1               'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-15.0             'DEL13C'
+1.0               'CO2IPR(1)'       0.0  changed to Alister's C4 responses
+0.77              'CO2ITR(1)'       0.0
+1.0               'CO2ICE(1,1,1)'   0.0
+1.0               'CO2ICE(1,1,2)'   0.0
+1.0               'CO2ICE(1,1,3)'   0.0
+1.0               'CO2ICE(1,2,1)'   0.0
+1.0               'CO2ICE(1,2,2)'   0.0
+1.0               'CO2ICE(1,2,3)'   0.0
+1.0               'CO2IRS(1)'       0.0
+C5X    corn-c5
+600.0             'PRDX(1)'
+30.0              'PPDF(1)'
+45.0              'PPDF(2)'
+1.0               'PPDF(3)'
+2.5               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.5               'PLTMRF'
+150.0             'FULCAN'
+0.45              'FRTC(1)' 0.5 11/27/02 saw
+0.1               'FRTC(2)'
+3.0               'FRTC(3)' 3 11/27/02 saw
+700.0             'BIOMAX'        9/14/01 KP
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.10              'FLIGNI(1,1)' .12 KP
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.5               'HIMAX'            0.45
+0.3               'HIWSF'            0.0
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.75              'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+500.0             'FSDETH(4)'
+0.1               'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-15.0             'DEL13C'
+1.0               'CO2IPR(1)'       0.0  changed to Alister's C4 responses
+0.77              'CO2ITR(1)'       0.0
+1.0               'CO2ICE(1,1,1)'   0.0
+1.0               'CO2ICE(1,1,2)'   0.0
+1.0               'CO2ICE(1,1,3)'   0.0
+1.0               'CO2ICE(1,2,1)'   0.0
+1.0               'CO2ICE(1,2,2)'   0.0
+1.0               'CO2ICE(1,2,3)'   0.0
+1.0               'CO2IRS(1)'       0.0
+C4    corn-c4
+500.0             'PRDX(1)'
+30.0              'PPDF(1)'
+45.0              'PPDF(2)'
+1.0               'PPDF(3)'
+2.5               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.5               'PLTMRF'
+150.0             'FULCAN'
+0.45              'FRTC(1)' 0.4 11/27/02 saw
+0.1               'FRTC(2)'
+3.0               'FRTC(3)' 3 11/27/02 saw
+700.0             'BIOMAX'       9/14/01 KP
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.10              'FLIGNI(1,1)' .12 KP
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.53              'HIMAX'
+0.30              'HIWSF'
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.75              'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+500.0             'FSDETH(4)'
+0.1               'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-15.0             'DEL13C'
+1.0               'CO2IPR(1)'       0.0  changed to Alister's C4 responses
+0.77              'CO2ITR(1)'       0.0
+1.0               'CO2ICE(1,1,1)'   0.0
+1.0               'CO2ICE(1,1,2)'   0.0
+1.0               'CO2ICE(1,1,3)'   0.0
+1.0               'CO2ICE(1,2,1)'   0.0
+1.0               'CO2ICE(1,2,2)'   0.0
+1.0               'CO2ICE(1,2,3)'   0.0
+1.0               'CO2IRS(1)'       0.0
+C3    medium-yield
+395.0             'PRDX(1)'
+30.0              'PPDF(1)'
+45.0              'PPDF(2)'
+1.0               'PPDF(3)'
+2.5               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.5               'PLTMRF'
+150.0             'FULCAN'
+0.45              'FRTC(1)' 0.4 11/27/02 saw
+0.1               'FRTC(2)'
+3.0               'FRTC(3)' 3 11/27/02 saw
+450.0             'BIOMAX'        9/14/01 KP
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.10              'FLIGNI(1,1)' .12 KP
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.44              'HIMAX'
+0.30              'HIWSF'
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.75              'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+500.0             'FSDETH(4)'
+0.1               'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-15.0             'DEL13C'
+1.0               'CO2IPR(1)'       0.0  changed to Alister's C4 responses
+0.77              'CO2ITR(1)'       0.0
+1.0               'CO2ICE(1,1,1)'   0.0
+1.0               'CO2ICE(1,1,2)'   0.0
+1.0               'CO2ICE(1,1,3)'   0.0
+1.0               'CO2ICE(1,2,1)'   0.0
+1.0               'CO2ICE(1,2,2)'   0.0
+1.0               'CO2ICE(1,2,3)'   0.0
+1.0               'CO2IRS(1)'       0.0
+C2    c2
+350.0             'PRDX(1)'
+30.0              'PPDF(1)'
+45.0              'PPDF(2)'
+1.0               'PPDF(3)'
+2.5               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.5               'PLTMRF'
+150.0             'FULCAN'
+0.40              'FRTC(1)' 0.4 11/27/02 saw
+0.1               'FRTC(2)'
+3.0               'FRTC(3)'  3 11/27/02 saw
+350.0             'BIOMAX'       9/14/01 KP
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.10              'FLIGNI(1,1)' .12 KP
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.4              'HIMAX'
+0.35              'HIWSF'
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.75              'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+500.0             'FSDETH(4)'
+0.1               'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-15.0             'DEL13C'
+1.0               'CO2IPR(1)'       0.0  changed to Alister's C4 responses
+0.77              'CO2ITR(1)'       0.0
+1.0               'CO2ICE(1,1,1)'   0.0
+1.0               'CO2ICE(1,1,2)'   0.0
+1.0               'CO2ICE(1,1,3)'   0.0
+1.0               'CO2ICE(1,2,1)'   0.0
+1.0               'CO2ICE(1,2,2)'   0.0
+1.0               'CO2ICE(1,2,3)'   0.0
+1.0               'CO2IRS(1)'       0.0
+C1    Corn-low-yield
+330.0             'PRDX(1)'
+30.0              'PPDF(1)'
+45.0              'PPDF(2)'
+1.0               'PPDF(3)'
+2.5               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.5               'PLTMRF'
+150.0             'FULCAN'
+0.45              'FRTC(1)' 0.4 11/27/02 saw
+0.1               'FRTC(2)'
+3.0               'FRTC(3)' 3 11/27/02 saw
+300.0             'BIOMAX'      9/14/01 KP
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.10              'FLIGNI(1,1)' .12 KP
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.32              'HIMAX'
+0.35              'HIWSF'
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.5               'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+500.0             'FSDETH(4)'
+0.1               'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-15.0             'DEL13C'
+0.0               'CO2IPR(1)'
+0.0               'CO2ITR(1)'
+0.0               'CO2ICE(1,1,1)'
+0.0               'CO2ICE(1,1,2)'
+0.0               'CO2ICE(1,1,3)'
+0.0               'CO2ICE(1,2,1)'
+0.0               'CO2ICE(1,2,2)'
+0.0               'CO2ICE(1,2,3)'
+0.0               'CO2IRS(1)'
+C     Corn_from_Alister
+360               'PRDX(1)'
+30                'PPDF(1)'
+45                'PPDF(2)'
+1.0               'PPDF(3)'
+2.5               'PPDF(4)'
+0.0               'BIOFLG'
+1800              'BIOK5'
+.5                'PLTMRF'
+150               'FULCAN'
+.4                'FRTC(1)'
+.1                'FRTC(2)'
+3.0               'FRTC(3)'
+650               'BIOMAX'                372.0 ratioed to Ric's changes
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45                'PRBMN(1,1)'
+390               'PRBMN(2,1)'
+340               'PRBMN(3,1)'
+0                 'PRBMN(1,2)'
+0                 'PRBMN(2,2)'
+0                 'PRBMN(3,2)'
+60                'PRBMX(1,1)'
+420               'PRBMX(2,1)'
+420               'PRBMX(3,1)'
+0                 'PRBMX(1,2)'
+0                 'PRBMX(2,2)'
+0                 'PRBMX(3,2)'
+.10               'FLIGNI(1,1)' .12 KP
+0                 'FLIGNI(2,1)'
+.06               'FLIGNI(1,2)'
+0                 'FLIGNI(2,2)'
+.6                'HIMAX'
+.5                'HIWSF'
+1                 'HIMON(1)' 1/17/02 saw
+0                 'HIMON(2)' 1/17/02 saw
+.7                'EFRGRN(1)'
+.6                'EFRGRN(2)'
+.6                'EFRGRN(3)'
+.04               'VLOSSP'
+0                 'FSDETH(1)'
+0                 'FSDETH(2)'
+0                 'FSDETH(3)'
+500               'FSDETH(4)'
+.1                'FALLRT'
+.05               'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0                 'SNFXMX(1)'
+-15.0             'DEL13C'
+1.0               'CO2IPR(1)'
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.0               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+CDL    Dry land corn-c6
+620.0             'PRDX(1)'
+30.0              'PPDF(1)'
+45.0              'PPDF(2)'
+1.0               'PPDF(3)'
+2.5               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.5               'PLTMRF'
+150.0             'FULCAN'
+0.5               'FRTC(1)'
+0.1               'FRTC(2)'
+3.0               'FRTC(3)'
+400.0             'BIOMAX'                700.0
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.10              'FLIGNI(1,1)' .12 KP
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.6               'HIMAX'
+0.25              'HIWSF'
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.75              'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+500.0             'FSDETH(4)'
+0.1               'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-15.0             'DEL13C'
+1.0               'CO2IPR(1)'       0.0  changed to Alister's C4 responses
+0.77              'CO2ITR(1)'       0.0
+1.0               'CO2ICE(1,1,1)'   0.0
+1.0               'CO2ICE(1,1,2)'   0.0
+1.0               'CO2ICE(1,1,3)'   0.0
+1.0               'CO2ICE(1,2,1)'   0.0
+1.0               'CO2ICE(1,2,2)'   0.0
+1.0               'CO2ICE(1,2,3)'   0.0
+1.0               'CO2IRS(1)'       0.0
+SORG     grain sorghum     
+680.0             'PRDX(1)'
+30.0              'PPDF(1)'
+45.0              'PPDF(2)'
+1.0               'PPDF(3)'
+2.5               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.5               'PLTMRF'
+150.0             'FULCAN'
+0.45              'FRTC(1)'
+0.1               'FRTC(2)'
+3.0               'FRTC(3)' 3 11/27/02 saw
+700.0             'BIOMAX'          700
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.10              'FLIGNI(1,1)' .12  same as new corn value 
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.46              'HIMAX'    #  0.5  test change ti national yield
+0.25              'HIWSF'           0.1
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.75              'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+500.0             'FSDETH(4)'
+0.1               'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-15.0             'DEL13C'
+1.0               'CO2IPR(1)'       0.0  changed to Alister's C4 responses
+0.77              'CO2ITR(1)'       0.0
+1.0               'CO2ICE(1,1,1)'   0.0
+1.0               'CO2ICE(1,1,2)'   0.0
+1.0               'CO2ICE(1,1,3)'   0.0
+1.0               'CO2ICE(1,2,1)'   0.0
+1.0               'CO2ICE(1,2,2)'   0.0
+1.0               'CO2ICE(1,2,3)'   0.0
+1.0               'CO2IRS(1)'       0.0
+M                 millet     
+800.0             'PRDX(1)'  10/8/02 saw 350
+30.0              'PPDF(1)'  10/8/02 saw  
+45.0              'PPDF(2)'
+1.0               'PPDF(3)'
+2.5               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.5               'PLTMRF'
+150.0             'FULCAN'
+0.45              'FRTC(1)'
+0.1               'FRTC(2)'
+3.0               'FRTC(3)' 3 11/27/02 saw
+400.0             'BIOMAX'          700
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.10              'FLIGNI(1,1)' .12 same as new corn value
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.5              'HIMAX'    10/8/02 saw .45
+0.20              'HIWSF'     10/8/02 saw      0.1
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.7               'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+500.0             'FSDETH(4)'
+0.1               'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-15.0             'DEL13C'
+1.0               'CO2IPR(1)'       0.0  changed to Alister's C4 responses
+0.77              'CO2ITR(1)'       0.0
+1.0               'CO2ICE(1,1,1)'   0.0
+1.0               'CO2ICE(1,1,2)'   0.0
+1.0               'CO2ICE(1,1,3)'   0.0
+1.0               'CO2ICE(1,2,1)'   0.0
+1.0               'CO2ICE(1,2,2)'   0.0
+1.0               'CO2ICE(1,2,3)'   0.0
+1.0               'CO2IRS(1)'       0.
+XM     Millet___(tentative)
+500.0             'PRDX(1)'
+30.0              'PPDF(1)'
+45.0              'PPDF(2)'
+1.0               'PPDF(3)'
+2.5               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.5               'PLTMRF'
+150.0             'FULCAN'
+0.45              'FRTC(1)'
+0.1               'FRTC(2)' 1/17/02 saw 0.0
+3.0               'FRTC(3)'
+500.0             'BIOMAX'
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.10              'FLIGNI(1,1)' .12 same as new corn value
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.45              'HIMAX'
+0.1               'HIWSF'           0.0
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.7               'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+500.0             'FSDETH(4)'
+0.12              'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-15.0             'DEL13C'
+1.0               'CO2IPR(1)'       Millet is C4 Use Allister's C data
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.0               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+COT    Cotton (based on low-yield Corn c2)
+200.0             'PRDX(1)' 1/17/02 saw 300.0  test change to national yield
+30.0              'PPDF(1)'
+45.0              'PPDF(2)'
+1.0               'PPDF(3)'
+2.5               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.5               'PLTMRF'
+150.0             'FULCAN'
+0.45              'FRTC(1)'
+0.1               'FRTC(2)'
+3.0               'FRTC(3)'
+400.0             'BIOMAX'        700.0  Updated with Corn changes
+20.0              'PRAMN(1,1)'     10.0  Needs to be completely evaluated
+150.0             'PRAMN(2,1)'
+190.0             'PRAMN(3,1)'
+62.5              'PRAMN(1,2)'
+150.0             'PRAMN(2,2)'
+150.0             'PRAMN(3,2)'
+ 40.0             'PRAMX(1,1)'     20.0
+230.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+125.0             'PRAMX(1,2)'
+230.0             'PRAMX(2,2)'
+230.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.15              'FLIGNI(1,1)' ? old wheat value
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.35              'HIMAX' 1/17/02 saw
+0.25              'HIWSF' 1/17/02 saw
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.75              'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+500.0             'FSDETH(4)'
+0.1               'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-15.0             'DEL13C'
+1.0               'CO2IPR(1)'       0.0  changed to Alister's C4 responses
+0.77              'CO2ITR(1)'       0.0
+1.0               'CO2ICE(1,1,1)'   0.0
+1.0               'CO2ICE(1,1,2)'   0.0
+1.0               'CO2ICE(1,1,3)'   0.0
+1.0               'CO2ICE(1,2,1)'   0.0
+1.0               'CO2ICE(1,2,2)'   0.0
+1.0               'CO2ICE(1,2,3)'   0.0
+1.0               'CO2IRS(1)'       0.0
+PEA   (Dryland Peas for PNW   based on cold weather Soybeans)
+200.0             'PRDX(1)'
+17.0              'PPDF(1)'
+35.0              'PPDF(2)'
+0.5               'PPDF(3)'
+5.0               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.5               'PLTMRF'
+150.0             'FULCAN'
+0.45              'FRTC(1)'
+0.1               'FRTC(2)'
+3.0               'FRTC(3)'
+800.0             'BIOMAX'
+7.55              'PRAMN(1,1)'
+150.0             'PRAMN(2,1)'
+190.0             'PRAMN(3,1)'
+30.0              'PRAMN(1,2)'
+150.0             'PRAMN(2,2)'
+150.0             'PRAMN(3,2)'
+10.0              'PRAMX(1,1)'
+230.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+40.0              'PRAMX(1,2)'
+230.0             'PRAMX(2,2)'
+230.0             'PRAMX(3,2)'
+24.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+28.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.06              'FLIGNI(1,1)' .12 KP for sybn
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.41              'HIMAX'           pendleton data #2800 peas per 2 ton vines
+0.5               'HIWSF'    1/17/02 saw
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.53              'EFRGRN(1)'       from Table 3 Estimated C/N additions
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+500.0             'FSDETH(4)'
+0.1               'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.03              'SNFXMX(1)'        0.0375 from Soybean
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'         Soybean's are a C3 crop
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+SYBN  Soybeans  (PRDX and HIMAX set to meet current NASS production)
+215.0             'PRDX(1)'   1/17/02 saw 250
+27.0              'PPDF(1)'
+40.0              'PPDF(2)'
+1.0               'PPDF(3)'
+2.5               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.5               'PLTMRF'
+150.0             'FULCAN'
+0.3               'FRTC(1)' 1/17/02 saw
+0.1               'FRTC(2)' 1/17/02 saw
+3.0               'FRTC(3)' 1/17/02 saw
+800.0             'BIOMAX'
+7.55              'PRAMN(1,1)'
+150.0             'PRAMN(2,1)'
+190.0             'PRAMN(3,1)'
+30.0              'PRAMN(1,2)'
+150.0             'PRAMN(2,2)'
+150.0             'PRAMN(3,2)'
+10.0              'PRAMX(1,1)'
+230.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+40.0              'PRAMX(1,2)'
+230.0             'PRAMX(2,2)'
+230.0             'PRAMX(3,2)'
+24.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+28.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.06              'FLIGNI(1,1)' .12 KP
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.41              'HIMAX'    1/17/02 saw
+0.30              'HIWSF'    1/17/02 saw.  Changed from 0.40, MJE 10/3/02.
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.75              'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+500.0             'FSDETH(4)'
+0.1               'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0375            'SNFXMX(1)'
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'         Soybean's are a C3 crop
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+SYBN1 Soybeans  (PRDX and HIMAX lowered to meet 1950 Iowa production)
+180.0             'PRDX(1)'
+27.0              'PPDF(1)'
+40.0              'PPDF(2)'
+1.0               'PPDF(3)'
+2.5               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.5               'PLTMRF'
+150.0             'FULCAN'
+0.4               'FRTC(1)' 1/17/02 saw
+0.1               'FRTC(2)' 1/17/02 saw
+3.0               'FRTC(3)'
+800.0             'BIOMAX'
+7.55              'PRAMN(1,1)'
+150.0             'PRAMN(2,1)'
+190.0             'PRAMN(3,1)'
+30.0              'PRAMN(1,2)'
+150.0             'PRAMN(2,2)'
+150.0             'PRAMN(3,2)'
+10.0              'PRAMX(1,1)'
+230.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+40.0              'PRAMX(1,2)'
+230.0             'PRAMX(2,2)'
+230.0             'PRAMX(3,2)'
+24.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+28.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.06              'FLIGNI(1,1)' .12 KP
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.30              'HIMAX'
+0.30              'HIWSF'
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.67              'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+500.0             'FSDETH(4)'
+0.1               'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0375            'SNFXMX(1)'
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'         Soybean's are a C3 crop
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+SYBN2 Soybeans  (PRDX and HIMAX lowered to meet 1970 Iowa production)
+210.0             'PRDX(1)'
+27.0              'PPDF(1)'
+40.0              'PPDF(2)'
+1.0               'PPDF(3)'
+2.5               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.5               'PLTMRF'
+150.0             'FULCAN'
+0.4               'FRTC(1)' 1/17/02 saw
+0.1               'FRTC(2)' 1/17/02 saw
+3.0               'FRTC(3)'
+800.0             'BIOMAX'
+7.55              'PRAMN(1,1)'
+150.0             'PRAMN(2,1)'
+190.0             'PRAMN(3,1)'
+30.0              'PRAMN(1,2)'
+150.0             'PRAMN(2,2)'
+150.0             'PRAMN(3,2)'
+10.0              'PRAMX(1,1)'
+230.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+40.0              'PRAMX(1,2)'
+230.0             'PRAMX(2,2)'
+230.0             'PRAMX(3,2)'
+24.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+28.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.06              'FLIGNI(1,1)' .12 KP
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.33              'HIMAX'
+0.30              'HIWSF'
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.67              'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+500.0             'FSDETH(4)'
+0.1               'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0375            'SNFXMX(1)'
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'         Soybean's are a C3 crop
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+RICE  Upland_Rice
+500.0             'PRDX(1)'
+30.0              'PPDF(1)'
+45.0              'PPDF(2)'
+1.0               'PPDF(3)'
+2.50              'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.10              'PLTMRF'
+150.0             'FULCAN'
+0.45               'FRTC(1)' ?
+0.10              'FRTC(2)'  ?
+3.0               'FRTC(3)' ?
+700.0             'BIOMAX'
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+240.0             'PRBMX(2,1)'
+240.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.15              'FLIGNI(1,1)' old wheat value
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.40              'HIMAX'
+0.5               'HIWSF'    1/17/02 saw
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.50              'EFRGRN(1)'
+0.50              'EFRGRN(2)'
+0.50              'EFRGRN(3)'
+0.04              'VLOSSP'
+0.20              'FSDETH(1)'
+0.40              'FSDETH(2)'
+0.0               'FSDETH(3)'
+500.0             'FSDETH(4)'
+0.08333           'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.00300           'SNFXMX(1)'
+-15.0             'DEL13C'
+1.20              'CO2IPR(1)'
+0.80              'CO2ITR(1)'
+1.20              'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.20              'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+POT    Potato_Lauchstadt
+150.00            'PRDX(1)'
+17.0              'PPDF(1)'
+35.0              'PPDF(2)'
+1.2               'PPDF(3)'
+5.0               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.4               'PLTMRF'
+150.0             'FULCAN'
+0.6               'FRTC(1)'
+0.75              'FRTC(2)'
+2.0               'FRTC(3)'
+600.0             'BIOMAX'
+12.0              'PRAMN(1,1)'
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+57.0              'PRAMN(1,2)'
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+25.0              'PRAMX(1,1)'
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+125.0             'PRAMX(1,2)'
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+35.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+40.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.15              'FLIGNI(1,1)'
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.42              'HIMAX'
+0.50              'HIWSF'    1/17/02 saw 0.0
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.65              'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+200.0             'FSDETH(4)'
+0.12              'FALLRT'
+0.03              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+SUGB    Sugar_beet Nass production 
+150.00            'PRDX(1)'
+17.0              'PPDF(1)'
+35.0              'PPDF(2)'
+1.2               'PPDF(3)'
+5.0               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.4               'PLTMRF'
+150.0             'FULCAN'
+0.6               'FRTC(1)'
+0.75              'FRTC(2)'
+2.0               'FRTC(3)'
+600.0             'BIOMAX'
+12.0              'PRAMN(1,1)'
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+57.0              'PRAMN(1,2)'
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+25.0              'PRAMX(1,1)'
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+125.0             'PRAMX(1,2)'
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+35.0              'PRBMN(1,1)' ?
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+40.0              'PRBMX(1,1)' ?
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.15              'FLIGNI(1,1)' ?
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.42              'HIMAX'
+0.50              'HIWSF'    1/17/02 saw 0.0
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.65              'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+200.0             'FSDETH(4)'
+0.12              'FALLRT'
+0.03              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+SUGBL   Sugar_beet_Lauchstadt
+600.00            'PRDX(1)'
+17.0              'PPDF(1)'
+35.0              'PPDF(2)'
+1.2               'PPDF(3)'
+5.0               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.4               'PLTMRF'
+150.0             'FULCAN'
+0.6               'FRTC(1)'
+0.75              'FRTC(2)'
+2.0               'FRTC(3)'
+600.0             'BIOMAX'
+12.0              'PRAMN(1,1)'
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+57.0              'PRAMN(1,2)'
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+25.0              'PRAMX(1,1)'
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+125.0             'PRAMX(1,2)'
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+15.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+25.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.15              'FLIGNI(1,1)'?
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.42              'HIMAX'
+0.50              'HIWSF'    1/17/02 saw 0.0
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.65              'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+200.0             'FSDETH(4)'
+0.12              'FALLRT'
+0.03              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+DBEAN   (Dryland beans - under development)
+170.0             'PRDX(1)'
+17.0              'PPDF(1)'
+35.0              'PPDF(2)'
+0.5               'PPDF(3)'
+5.0               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.5               'PLTMRF'
+150.0             'FULCAN'
+0.45              'FRTC(1)'
+0.1               'FRTC(2)'
+3.0               'FRTC(3)'
+800.0             'BIOMAX'
+7.55              'PRAMN(1,1)'
+150.0             'PRAMN(2,1)'
+190.0             'PRAMN(3,1)'
+30.0              'PRAMN(1,2)'
+150.0             'PRAMN(2,2)'
+150.0             'PRAMN(3,2)'
+10.0              'PRAMX(1,1)'
+230.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+40.0              'PRAMX(1,2)'
+230.0             'PRAMX(2,2)'
+230.0             'PRAMX(3,2)'
+24.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+28.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.06              'FLIGNI(1,1)' .12 from new sybn
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.41              'HIMAX'           pendleton data #2800 peas per 2 ton peavines
+0.5               'HIWSF'       1/17/02 saw 0.0
+1.0               'HIMON(1)'	1/17/02 saw
+0.0               'HIMON(2)'	1/17/02 saw
+0.53              'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+500.0             'FSDETH(4)'
+0.1               'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.03              'SNFXMX(1)'
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+SUN    Spring_Wheat_high_harvest_index_(cold_tolerent) (changed for sunflower)
+300.0             'PRDX(1)'
+23.0              'PPDF(1)' 	changed from 17.0 xiu 8/14/2001
+35.0              'PPDF(2)'
+0.5               'PPDF(3)'
+5.0               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.4               'PLTMRF'
+150.0             'FULCAN'
+0.45              'FRTC(1)' 0.6 11/29/02 saw
+0.1               'FRTC(2)'
+3.0               'FRTC(3)'
+50.0              'BIOMAX'     600.0
+20                'PRAMN(1,1)' 12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+80.0              'PRAMN(1,2)' 57.0
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)' 25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+160.0             'PRAMX(1,2)' 125.0
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.15              'FLIGNI(1,1)'
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.45              'HIMAX'       changed from 0.45 xiu 8/14/2001
+0.25              'HIWSF'         0.5
+1.0               'HIMON(1)'
+0.0               'HIMON(2)'     1/17/02 saw
+0.75              'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+200.0             'FSDETH(4)'
+0.12              'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+CAN    Spring_Wheat_high_harvest_index_(cold_tolerent) (changed for canola)
+300.0             'PRDX(1)'
+20.0              'PPDF(1)'   change from 17.0 xiu 8/23/2001
+30.0              'PPDF(2)'    change from 35.0 xiu 8/23/2001
+0.5               'PPDF(3)'
+5.0               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.4               'PLTMRF'
+150.0             'FULCAN'
+0.45              'FRTC(1)' 0.6 11/29/02 saw
+0.1               'FRTC(2)'
+3.0               'FRTC(3)'
+50.0              'BIOMAX'     600.0
+20                'PRAMN(1,1)' 12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+80.0              'PRAMN(1,2)' 57.0
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)' 25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+160.0             'PRAMX(1,2)' 125.0
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.15              'FLIGNI(1,1)'
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.45              'HIMAX'
+0.25              'HIWSF'         0.5
+1.0               'HIMON(1)'
+0.0               'HIMON(2)'  1/17/02 saw 
+0.75              'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+200.0             'FSDETH(4)'
+0.12              'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+FSORG      forage (silage) sorghum     Based on dryland corn 9/14/01 KP
+715.0             'PRDX(1)'
+30.0              'PPDF(1)'
+45.0              'PPDF(2)'
+1.0               'PPDF(3)'
+2.5               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.5               'PLTMRF'
+150.0             'FULCAN'
+0.45              'FRTC(1)' 0.5 11/27/02 saw
+0.1               'FRTC(2)'
+3.0               'FRTC(3)' 3 11/27/02 saw
+400.0             'BIOMAX'          700    
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.10              'FLIGNI(1,1)' .12 same as new corn
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.5               'HIMAX'
+0.2               'HIWSF'           0.1
+2.0               'HIMON(1)'
+1.0               'HIMON(2)'
+0.75              'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+500.0             'FSDETH(4)'
+0.1               'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-15.0             'DEL13C'
+1.0               'CO2IPR(1)'       0.0  changed to Alister's C4 responses
+0.77              'CO2ITR(1)'       0.0
+1.0               'CO2ICE(1,1,1)'   0.0
+1.0               'CO2ICE(1,1,2)'   0.0
+1.0               'CO2ICE(1,1,3)'   0.0
+1.0               'CO2ICE(1,2,1)'   0.0
+1.0               'CO2ICE(1,2,2)'   0.0
+1.0               'CO2ICE(1,2,3)'   0.0
+1.0               'CO2IRS(1)'       0.0
+OAT1    Oat_low_harvest_index_(cold_tolerent) pulled from SW1 MJE 9/30/02
+225.0             'PRDX(1)'   reduced from 250, MJE 9/30/02
+17.0              'PPDF(1)' 
+35.0              'PPDF(2)'
+0.5               'PPDF(3)' 
+5.0               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.4               'PLTMRF'
+150.0             'FULCAN'
+0.45              'FRTC(1)' 0.4 11/29/02 saw
+0.1               'FRTC(2)'  0.2 11/29/02 saw
+3.0               'FRTC(3)'  2  11/29/02 saw
+400.0             'BIOMAX'      400
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.18              'FLIGNI(1,1)' from new wheat value
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.43              'HIMAX'
+0.45              'HIWSF'         0.5
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)'   1/17/02 saw
+0.6               'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+200.0             'FSDETH(4)'
+0.12              'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+OAT2    Oat_medium_harvest_index_(cold_tolerent) pulled from SW2 MJE 9/30/02
+250.0             'PRDX(1)'   reduced from 300, MJE 9/30/02
+17.0              'PPDF(1)' 
+35.0              'PPDF(2)'
+0.5               'PPDF(3)' 
+5.0               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.4               'PLTMRF'
+150.0             'FULCAN'
+0.45              'FRTC(1)' 0.4 11/29/02 saw
+0.1               'FRTC(2)'  0.2 11/29/02 saw
+3.0               'FRTC(3)'  3  11/29/02 saw
+400.0             'BIOMAX'     400
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.18              'FLIGNI(1,1)' from new wheat value
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.45              'HIMAX'         0.42
+0.45              'HIWSF'         0.5
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.65               'EFRGRN(1)' 10/7/02 saw
+0.6               'EFRGRN(2)' 
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+200.0             'FSDETH(4)'
+0.12              'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+OAT3    Oat_high_harvest_index_(cold_tolerent) pulled from SW3 MJE 9/30/02
+270.0             'PRDX(1)'   reduced from 300, MJE 9/30/02
+17.0              'PPDF(1)' 
+35.0              'PPDF(2)'
+0.5               'PPDF(3)' 
+5.0               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.4               'PLTMRF'
+150.0             'FULCAN'
+0.45              'FRTC(1)' 0.5 11/29/02 saw
+0.1               'FRTC(2)'  0.2 11/29/02 saw
+3.0               'FRTC(3)' 2 11/29/02 saw
+400.0             'BIOMAX'    400
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.18              'FLIGNI(1,1)' from new wheat value
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.45               'HIMAX'      0.5
+0.45              'HIWSF'         0.5
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.75              'EFRGRN(1)' 10/7/02 saw breton
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+200.0             'FSDETH(4)'
+0.12              'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+BAR1    BArley_low_harvest_index_(cold_tolerent) pulled from SW1 MJE 9/30/02
+225.0             'PRDX(1)'   reduced from 250, MJE 9/30/02
+17.0              'PPDF(1)' 
+35.0              'PPDF(2)'
+0.7               'PPDF(3)' 
+5.0               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.4               'PLTMRF'
+150.0             'FULCAN'
+0.45              'FRTC(1)' 0.4 11/29/02 saw
+0.1               'FRTC(2)'  0.2 11/29/02 saw
+3.0               'FRTC(3)'  2  11/29/02 saw
+400.0             'BIOMAX'      400
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.18              'FLIGNI(1,1)' from new wheat value
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.43              'HIMAX'
+0.45              'HIWSF'         0.5
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)'   1/17/02 saw
+0.6               'EFRGRN(1)'
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+200.0             'FSDETH(4)'
+0.12              'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+BAR2    Barley_medium_harvest_index_(cold_tolerent) pulled based on Breton
+265.0             'PRDX(1)'   reduced from 300, MJE 9/30/02
+17.0              'PPDF(1)' 
+35.0              'PPDF(2)'
+0.7               'PPDF(3)' 
+5.0               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.4               'PLTMRF'
+150.0             'FULCAN'
+0.45              'FRTC(1)' 0.4 11/29/02 saw
+0.1               'FRTC(2)'  0.2 11/29/02 saw
+3.0               'FRTC(3)'  3  11/29/02 saw
+400.0             'BIOMAX'     400
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.18              'FLIGNI(1,1)' from new wheat value
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.35              'HIMAX'         0.42
+0.40              'HIWSF'         0.5
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.65               'EFRGRN(1)' 10/7/02 saw
+0.6               'EFRGRN(2)' 
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+200.0             'FSDETH(4)'
+0.12              'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+BAR3    Barley_high_harvest_index_(cold_tolerent) pulled from SW3 MJE 9/30/02
+280.0             'PRDX(1)'   reduced from 300, MJE 9/30/02
+17.0              'PPDF(1)' 
+35.0              'PPDF(2)'
+0.7               'PPDF(3)' 
+5.0               'PPDF(4)'
+0.0               'BIOFLG'
+1800.0            'BIOK5'
+0.4               'PLTMRF'
+150.0             'FULCAN'
+0.45              'FRTC(1)' 0.5 11/29/02 saw
+0.1               'FRTC(2)'  0.2 11/29/02 saw
+3.0               'FRTC(3)' 2 11/29/02 saw
+400.0             'BIOMAX'    400
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+45.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+60.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.18              'FLIGNI(1,1)' from new wheat value
+0.0               'FLIGNI(2,1)'
+0.06              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'
+0.41               'HIMAX'      0.5
+0.40              'HIWSF'         0.5
+1.0               'HIMON(1)' 1/17/02 saw
+0.0               'HIMON(2)' 1/17/02 saw
+0.75              'EFRGRN(1)' 10/7/02 saw breton
+0.6               'EFRGRN(2)'
+0.6               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.0               'FSDETH(1)'
+0.0               'FSDETH(2)'
+0.0               'FSDETH(3)'
+200.0             'FSDETH(4)'
+0.12              'FALLRT'
+0.05              'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+CLV1   Nitrogen fixing Clover 9/30/02 saw
+205.0             'PRDX(1)'    #  250.0  test change to national yield
+22.0              'PPDF(1)'
+35.0              'PPDF(2)'
+0.8               'PPDF(3)'
+3.5               'PPDF(4)'
+1.0               'BIOFLG'
+60.0              'BIOK5'
+0.5               'PLTMRF'
+100.0             'FULCAN'               # 150
+0.4              'FRTC(1)'   R:S=.41   10/22/02 saw
+0.2               'FRTC(2)'             10/22/02 saw
+1.0               'FRTC(3)'        1.0 ME 9/2001
+400.0             'BIOMAX'
+8.0               'PRAMN(1,1)'      8.5 JB 9/2001
+100.0             'PRAMN(2,1)'
+125.0             'PRAMN(3,1)'
+25.0              'PRAMN(1,2)'      8.5 JB 9/2001
+100.0             'PRAMN(2,2)'
+125.0             'PRAMN(3,2)'
+15.0              'PRAMX(1,1)'     11
+133.0             'PRAMX(2,1)'
+160.0             'PRAMX(3,1)'
+40.0              'PRAMX(1,2)'     KP 9/14/01
+133.0             'PRAMX(2,2)'
+160.0             'PRAMX(3,2)'
+17.0              'PRBMN(1,1)' orig.GCP value
+100.0             'PRBMN(2,1)'
+125.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+22.0              'PRBMX(1,1)'orig.GCP value
+133.0             'PRBMX(2,1)'
+160.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.04              'FLIGNI(1,1)'orig.GCP value
+0.0               'FLIGNI(2,1)'
+0.12              'FLIGNI(1,2)'orig.GCP value
+0.0               'FLIGNI(2,2)'
+0.02              'HIMAX'
+0.0               'HIWSF'
+2.0               'HIMON(1)'
+1.0               'HIMON(2)'
+0.0               'EFRGRN(1)'
+0.0               'EFRGRN(2)'
+0.0               'EFRGRN(3)'
+0.02              'VLOSSP'
+0.2               'FSDETH(1)'
+0.95              'FSDETH(2)' .4 11/31/02 saw
+0.1               'FSDETH(3)'
+150.0             'FSDETH(4)'
+0.15               'FALLRT'
+0.2               'RDR'             0.6
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.05              'SNFXMX(1)'  #0.05 JB 9/2001 (0.07=full Nitrogen fixing biomass)
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'     100% C3 alfalfa/clovers
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+ALF2   		Irrigated alfalfa
+220.0             'PRDX(1)'    #  changed from 250 to match longterm datasets
+22.0              'PPDF(1)'
+35.0              'PPDF(2)'
+0.8               'PPDF(3)'
+3.5               'PPDF(4)'
+1.0               'BIOFLG'
+60.0             'BIOK5'
+0.5               'PLTMRF'
+100.0             'FULCAN'               # 150
+0.33              'FRTC(1)'   R:S=.41   10/22/02 saw
+0.33              'FRTC(2)'             10/22/02 saw
+1.0               'FRTC(3)'        1.0 ME 9/2001
+400.0             'BIOMAX'
+8.0               'PRAMN(1,1)'      8.5 JB 9/2001
+100.0             'PRAMN(2,1)'
+125.0             'PRAMN(3,1)'
+25.0              'PRAMN(1,2)'      8.5 JB 9/2001
+100.0             'PRAMN(2,2)'
+125.0             'PRAMN(3,2)'
+15.0              'PRAMX(1,1)'     11
+133.0             'PRAMX(2,1)'
+160.0             'PRAMX(3,1)'
+40.0              'PRAMX(1,2)'     KP 9/14/01
+133.0             'PRAMX(2,2)'
+160.0             'PRAMX(3,2)'
+17.0              'PRBMN(1,1)'orig.GCP value
+100.0             'PRBMN(2,1)'
+125.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+22.0              'PRBMX(1,1)'orig.GCP value
+133.0             'PRBMX(2,1)'
+160.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.04              'FLIGNI(1,1)'orig.GCP value
+0.0               'FLIGNI(2,1)'
+0.12              'FLIGNI(1,2)'orig.GCP value
+0.0               'FLIGNI(2,2)'
+0.02              'HIMAX'
+0.0               'HIWSF'
+2.0               'HIMON(1)'
+1.0               'HIMON(2)'
+0.0               'EFRGRN(1)'
+0.0               'EFRGRN(2)'
+0.0               'EFRGRN(3)'
+0.02              'VLOSSP'
+0.2               'FSDETH(1)'
+0.95              'FSDETH(2)' .4 11/31/02 saw
+0.1               'FSDETH(3)'
+150.0             'FSDETH(4)'
+0.15               'FALLRT'
+0.2               'RDR'             0.6
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.07              'SNFXMX(1)'  #  0.05 JB 9/2001 (0.0375)  full Nitrogen fixing biomass
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'     100% C3 alfalfa/clovers
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+ALF         dryland alfalfa  (great plains eq.)
+220.0             'PRDX(1)'    #  changed from 250 to reduce to match longterm data sites
+22.0              'PPDF(1)'
+35.0              'PPDF(2)'
+0.8               'PPDF(3)'
+3.5               'PPDF(4)'
+1.0               'BIOFLG'
+60.0             'BIOK5'
+0.5               'PLTMRF'
+100.0             'FULCAN'         # 150
+0.0               'FRTC(1)'   GP eq 10/22/02 saw 
+0.0               'FRTC(2)'         10/22/02 saw 
+0.0               'FRTC(3)'        1.0 ME 9/2001
+400.0             'BIOMAX'
+8.0               'PRAMN(1,1)'      8.5 JB 9/2001
+100.0             'PRAMN(2,1)'
+125.0             'PRAMN(3,1)'
+25.0              'PRAMN(1,2)'      8.5 JB 9/2001
+100.0             'PRAMN(2,2)'
+125.0             'PRAMN(3,2)'
+15.0              'PRAMX(1,1)'     11
+133.0             'PRAMX(2,1)'
+160.0             'PRAMX(3,1)'
+40.0              'PRAMX(1,2)'     KP 9/14/01
+133.0             'PRAMX(2,2)'
+160.0             'PRAMX(3,2)'
+17.0              'PRBMN(1,1)'orig.GCP value
+100.0             'PRBMN(2,1)'
+125.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+22.0              'PRBMX(1,1)'orig.GCP value
+133.0             'PRBMX(2,1)'
+160.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.04              'FLIGNI(1,1)'orig.GCP value
+0.0               'FLIGNI(2,1)'
+0.12              'FLIGNI(1,2)'
+0.0               'FLIGNI(2,2)'orig.GCP value
+0.02              'HIMAX'
+0.0               'HIWSF'
+2.0               'HIMON(1)'
+1.0               'HIMON(2)'
+0.0               'EFRGRN(1)'
+0.0               'EFRGRN(2)'
+0.0               'EFRGRN(3)'
+0.02              'VLOSSP'
+0.2               'FSDETH(1)'
+0.95               'FSDETH(2)' .4 11/31/02 saw
+0.1               'FSDETH(3)'
+150.0             'FSDETH(4)'
+0.15              'FALLRT'
+0.2               'RDR'             0.6
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.07              'SNFXMX(1)'  #  0.05 JB 9/2001 (0.0375)  full Nitrogen fixing biomass
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'     100% C3 alfalfa/clovers
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+GCP1   irrigated_grass_clover_pasture
+240.0             'PRDX(1)'      300 K.P. 9/19/01  350  JB 9/2001
+22.0              'PPDF(1)'
+35.0              'PPDF(2)'
+0.8               'PPDF(3)'
+3.5               'PPDF(4)'
+1.0               'BIOFLG'
+60.0              'BIOK5'     #200.0 11/30/2001
+0.5               'PLTMRF'
+100.0             'FULCAN'      # 150 1/02
+0.45              'FRTC(1)' R:S=.7 10/22/02 saw
+0.45              'FRTC(2)'        10/22/02 saw
+1.0               'FRTC(3)'      1.0 ME 9/2001
+400.0             'BIOMAX'        100 JB 9/2001  400.0
+20.0              'PRAMN(1,1)'      8.5 JB 9/2001
+100.0             'PRAMN(2,1)'
+125.0             'PRAMN(3,1)'
+50.0              'PRAMN(1,2)'     15 JB 9/2001   8.5
+100.0             'PRAMN(2,2)'
+125.0             'PRAMN(3,2)'
+30.0              'PRAMX(1,1)'     15 JB 9/2001  11
+133.0             'PRAMX(2,1)'
+160.0             'PRAMX(3,1)'
+80.0              'PRAMX(1,2)'     30 JB 9/2001  15   11
+133.0             'PRAMX(2,2)'
+160.0             'PRAMX(3,2)'
+17.0              'PRBMN(1,1)'orig.GCP value
+100.0             'PRBMN(2,1)'
+125.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+22.0              'PRBMX(1,1)'orig.GCP value
+133.0             'PRBMX(2,1)'
+160.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.04              'FLIGNI(1,1)'orig.GCP value
+0.0               'FLIGNI(2,1)'
+0.12              'FLIGNI(1,2)'orig.GCP value
+0.0               'FLIGNI(2,2)'
+0.02              'HIMAX'
+0.0               'HIWSF'
+2.0               'HIMON(1)'
+1.0               'HIMON(2)'
+0.0               'EFRGRN(1)'
+0.0               'EFRGRN(2)'
+0.0               'EFRGRN(3)'
+0.02              'VLOSSP'
+0.2               'FSDETH(1)'
+0.95              'FSDETH(2)'    #0.4   10/30/2001
+0.1               'FSDETH(3)'
+150.0             'FSDETH(4)'    #500   11/19/2001
+0.15              'FALLRT'       #0.5   10/30/2001
+0.2               'RDR'           0.6
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.035             'SNFXMX(1)'  #  0.025  JB 9/2001 0.0375  1/2 Nitrogen fixing
+-27.0             'DEL13C'
+1.225             'CO2IPR(1)'    50% Temperate grass - 50% C3 clovers
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.225             'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+GCP   dryland_grass_clover_pasture (GP eq.)
+240.0             'PRDX(1)'      300 K.P. 9/19/01  350  JB 9/2001
+22.0              'PPDF(1)'
+35.0              'PPDF(2)'
+0.8               'PPDF(3)'
+3.5               'PPDF(4)'
+1.0               'BIOFLG'
+60.0              'BIOK5'     #200.0 11/30/2001
+0.5               'PLTMRF'
+100.0             'FULCAN'      # 150 1/02
+0.0               'FRTC(1)'   GP eq. 10/22/02 saw
+0.0               'FRTC(2)'          10/22/02 saw
+0.0               'FRTC(3)'          10/22/02 saw
+400.0             'BIOMAX'        100 JB 9/2001  400.0
+20.0              'PRAMN(1,1)'      8.5 JB 9/2001
+100.0             'PRAMN(2,1)'
+125.0             'PRAMN(3,1)'
+50.0              'PRAMN(1,2)'     15 JB 9/2001   8.5
+100.0             'PRAMN(2,2)'
+125.0             'PRAMN(3,2)'
+30.0              'PRAMX(1,1)'     15 JB 9/2001  11
+133.0             'PRAMX(2,1)'
+160.0             'PRAMX(3,1)'
+80.0              'PRAMX(1,2)'     30 JB 9/2001  15   11
+133.0             'PRAMX(2,2)'
+160.0             'PRAMX(3,2)'
+17.0              'PRBMN(1,1)'orig.GCP value
+100.0             'PRBMN(2,1)'
+125.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+22.0              'PRBMX(1,1)'orig.GCP value
+133.0             'PRBMX(2,1)'
+160.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.04              'FLIGNI(1,1)'orig.GCP value
+0.0               'FLIGNI(2,1)'
+0.12              'FLIGNI(1,2)'orig.GCP value
+0.0               'FLIGNI(2,2)'
+0.02              'HIMAX'
+0.0               'HIWSF'
+2.0               'HIMON(1)'
+1.0               'HIMON(2)'
+0.0               'EFRGRN(1)'
+0.0               'EFRGRN(2)'
+0.0               'EFRGRN(3)'
+0.02              'VLOSSP'
+0.2               'FSDETH(1)'
+0.95              'FSDETH(2)'    #0.4   11/30/2001
+0.1               'FSDETH(3)'
+150.0             'FSDETH(4)'    #500   11/30/2001
+0.15              'FALLRT'       #0.5   11/30/2001
+0.2               'RDR'           0.6
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.035             'SNFXMX(1)'  #  0.025  JB 9/2001 0.0375  1/2 Nitrogen fixing
+-27.0             'DEL13C'
+1.225             'CO2IPR(1)'    50% Temperate grass - 50% C3 clovers
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.225             'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+GGCP   dryland 3/4_grass 1/4_clover_pasture (GP eq.)
+270.0             'PRDX(1)'      300 9/19/01 K.P  350
+22.0              'PPDF(1)'
+35.0              'PPDF(2)'
+0.8               'PPDF(3)'
+3.5               'PPDF(4)'
+1.0               'BIOFLG'
+60.0              'BIOK5'     #200.0 11/30/2001
+0.5               'PLTMRF'
+150.0             'FULCAN'
+0.0               'FRTC(1)'    GP eq
+0.0               'FRTC(2)'    
+0.0               'FRTC(3)'    
+400.0             'BIOMAX'
+25.0              'PRAMN(1,1)'     8.5 JB 9/2001
+100.0             'PRAMN(2,1)'
+125.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'     8.5 JB 9/2001
+100.0             'PRAMN(2,2)'
+125.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'    15   JB  9/2001   11
+133.0             'PRAMX(2,1)'
+160.0             'PRAMX(3,1)'
+100.0             'PRAMX(1,2)'    15   JB  9/2001   11
+133.0             'PRAMX(2,2)'
+160.0             'PRAMX(3,2)'
+17.0              'PRBMN(1,1)'orig.GCP value
+100.0             'PRBMN(2,1)'
+125.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+22.0              'PRBMX(1,1)'orig.GCP value
+133.0             'PRBMX(2,1)'
+160.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.04              'FLIGNI(1,1)'orig.GCP value
+0.0               'FLIGNI(2,1)'
+0.12              'FLIGNI(1,2)'orig.GCP value
+0.0               'FLIGNI(2,2)'
+0.02              'HIMAX'
+0.0               'HIWSF'
+2.0               'HIMON(1)'
+1.0               'HIMON(2)'
+0.0               'EFRGRN(1)'
+0.0               'EFRGRN(2)'
+0.0               'EFRGRN(3)'
+0.02              'VLOSSP'
+0.2               'FSDETH(1)'
+0.95              'FSDETH(2)'    #0.4   11/30/2001
+0.1               'FSDETH(3)'
+150.0             'FSDETH(4)'    #500   11/30/2001
+0.15              'FALLRT'       #0.5   11/30/2001
+0.2               'RDR'           0.6
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0175            'SNFXMX(1)'  #  0.01 JB 9/2001  0.0375  1/4 Nitrogen fixing
+-27.0             'DEL13C'
+1.1875            'CO2IPR(1)'    50% Temperate grass - 50% C3 clovers
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.1875            'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+GGC1   irrigated 3/4_grass 1/4_clover_pasture 
+270.0             'PRDX(1)'      300 9/19/01 K.P  350
+22.0              'PPDF(1)'
+35.0              'PPDF(2)'
+0.8               'PPDF(3)'
+3.5               'PPDF(4)'
+1.0               'BIOFLG'
+60.0              'BIOK5'     #200.0 11/30/2001
+0.5               'PLTMRF'
+150.0             'FULCAN'
+0.5               'FRTC(1)' R:S=.85 10/22/02 saw
+0.5               'FRTC(2)'         10/22/02 saw
+1.0               'FRTC(3)'        1.0 ME 9/2001
+400.0             'BIOMAX'
+25.0              'PRAMN(1,1)'     8.5 JB 9/2001
+100.0             'PRAMN(2,1)'
+125.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'     8.5 JB 9/2001
+100.0             'PRAMN(2,2)'
+125.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'    15   JB  9/2001   11
+133.0             'PRAMX(2,1)'
+160.0             'PRAMX(3,1)'
+100.0             'PRAMX(1,2)'    15   JB  9/2001   11
+133.0             'PRAMX(2,2)'
+160.0             'PRAMX(3,2)'
+17.0              'PRBMN(1,1)'orig.GCP value
+100.0             'PRBMN(2,1)'
+125.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+22.0              'PRBMX(1,1)'orig.GCP value
+133.0             'PRBMX(2,1)'
+160.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.04              'FLIGNI(1,1)'orig.GCP value
+0.0               'FLIGNI(2,1)'
+0.12              'FLIGNI(1,2)'orig.GCP value
+0.0               'FLIGNI(2,2)'
+0.02              'HIMAX'
+0.0               'HIWSF'
+2.0               'HIMON(1)'
+1.0               'HIMON(2)'
+0.0               'EFRGRN(1)'
+0.0               'EFRGRN(2)'
+0.0               'EFRGRN(3)'
+0.02              'VLOSSP'
+0.2               'FSDETH(1)'
+0.95              'FSDETH(2)'    #0.4   11/30/2001
+0.1               'FSDETH(3)'
+150.0             'FSDETH(4)'    #500   11/30/2001
+0.15              'FALLRT'       #0.5   11/30/2001
+0.2               'RDR'           0.6
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0175            'SNFXMX(1)'  #  0.01 JB 9/2001  0.0375  1/4 Nitrogen fixing
+-27.0             'DEL13C'
+1.1875            'CO2IPR(1)'    50% Temperate grass - 50% C3 clovers
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.1875            'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+EGCP   Eastern_US_grass_clover_pasture (OH Prod.Levels, fixed r:s)
+370.0             'PRDX(1)'
+22.0              'PPDF(1)'
+35.0              'PPDF(2)'
+0.8               'PPDF(3)'
+3.5               'PPDF(4)'
+1.0               'BIOFLG'
+200.0             'BIOK5'
+0.5               'PLTMRF'
+150.0             'FULCAN'
+0.4               'FRTC(1)'  R:S=.67      0.5
+0.4               'FRTC(2)'        0.5
+1.0               'FRTC(3)'
+400.0             'BIOMAX'
+8.5               'PRAMN(1,1)'
+100.0             'PRAMN(2,1)'
+125.0             'PRAMN(3,1)'
+8.5               'PRAMN(1,2)'
+100.0             'PRAMN(2,2)'
+125.0             'PRAMN(3,2)'
+15.0              'PRAMX(1,1)'    11
+133.0             'PRAMX(2,1)'
+160.0             'PRAMX(3,1)'
+15.0              'PRAMX(1,2)'    11
+133.0             'PRAMX(2,2)'
+160.0             'PRAMX(3,2)'
+17.0              'PRBMN(1,1)'orig.GCP value
+100.0             'PRBMN(2,1)'
+125.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'orig.GCP value
+22.0              'PRBMX(1,1)'
+133.0             'PRBMX(2,1)'
+160.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.04              'FLIGNI(1,1)'orig.GCP value
+0.0               'FLIGNI(2,1)'
+0.12              'FLIGNI(1,2)'orig.GCP value
+0.0               'FLIGNI(2,2)'
+0.02              'HIMAX'
+0.0               'HIWSF'
+2.0               'HIMON(1)'
+1.0               'HIMON(2)'
+0.0               'EFRGRN(1)'
+0.0               'EFRGRN(2)'
+0.0               'EFRGRN(3)'
+0.02              'VLOSSP'
+0.3               'FSDETH(1)'
+0.4               'FSDETH(2)'
+0.1               'FSDETH(3)'
+500.0             'FSDETH(4)'
+0.5               'FALLRT'
+0.2               'RDR'           0.6
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.02              'SNFXMX(1)'  #  0.0375  1/2 Nitrogen fixing biomass
+-27.0             'DEL13C'
+1.225             'CO2IPR(1)'    50% Temperate grass - 50% C3 clovers
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.225             'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+TG    Temperate_grassland (fixed root fraction)
+270.0             'PRDX(1)'
+22.0              'PPDF(1)'
+35.0              'PPDF(2)'
+0.8               'PPDF(3)'
+3.5               'PPDF(4)'
+1.0               'BIOFLG'
+60.0              'BIOK5'
+0.5               'PLTMRF'
+150.0             'FULCAN'
+0.5               'FRTC(1)'      R:S=1.0
+0.5               'FRTC(2)'
+1.0               'FRTC(3)'
+400.0             'BIOMAX'
+30.0              'PRAMN(1,1)'
+133.0             'PRAMN(2,1)'
+133.0             'PRAMN(3,1)'
+90.0              'PRAMN(1,2)'
+160.0             'PRAMN(2,2)'
+160.0             'PRAMN(3,2)'
+35.0              'PRAMX(1,1)'
+200.0             'PRAMX(2,1)'
+200.0             'PRAMX(3,1)'
+95.0              'PRAMX(1,2)'
+260.0             'PRAMX(2,2)'
+260.0             'PRAMX(3,2)'
+50.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+55.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.02              'FLIGNI(1,1)'
+0.0012            'FLIGNI(2,1)'
+0.26              'FLIGNI(1,2)'
+-0.0015           'FLIGNI(2,2)'
+0.02              'HIMAX'
+0.0               'HIWSF'
+2.0               'HIMON(1)'
+1.0               'HIMON(2)'
+0.0               'EFRGRN(1)'
+0.0               'EFRGRN(2)'
+0.0               'EFRGRN(3)'
+0.04              'VLOSSP'
+0.2               'FSDETH(1)'
+0.6               'FSDETH(2)'
+0.2               'FSDETH(3)'
+150.0             'FSDETH(4)'
+0.15              'FALLRT'
+0.2               'RDR'
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-27.0             'DEL13C'
+1.15              'CO2IPR(1)'    0.5  changed to average of c3/c4 (1+1.3)/2
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.15              'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+E     Weeds
+300.0             'PRDX(1)'      300 9/19/01 K.P  350
+22.0              'PPDF(1)'
+35.0              'PPDF(2)'
+0.8               'PPDF(3)'
+3.5               'PPDF(4)'
+1.0               'BIOFLG'
+60.0              'BIOK5'     #200.0 11/30/2001
+0.5               'PLTMRF'
+150.0             'FULCAN'
+0.5               'FRTC(1)' R:S=.85 10/22/02 saw
+0.5               'FRTC(2)'         10/22/02 saw
+1.0               'FRTC(3)'        1.0 ME 9/2001
+400.0             'BIOMAX'
+25.0              'PRAMN(1,1)'     8.5 JB 9/2001
+100.0             'PRAMN(2,1)'
+125.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'     8.5 JB 9/2001
+100.0             'PRAMN(2,2)'
+125.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'    15   JB  9/2001   11
+133.0             'PRAMX(2,1)'
+160.0             'PRAMX(3,1)'
+100.0             'PRAMX(1,2)'    15   JB  9/2001   11
+133.0             'PRAMX(2,2)'
+160.0             'PRAMX(3,2)'
+17.0              'PRBMN(1,1)'orig.GCP value
+100.0             'PRBMN(2,1)'
+125.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+22.0              'PRBMX(1,1)'orig.GCP value
+133.0             'PRBMX(2,1)'
+160.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.04              'FLIGNI(1,1)'orig.GCP value
+0.0               'FLIGNI(2,1)'
+0.12              'FLIGNI(1,2)'orig.GCP value
+0.0               'FLIGNI(2,2)'
+0.02              'HIMAX'
+0.0               'HIWSF'
+2.0               'HIMON(1)'
+1.0               'HIMON(2)'
+0.0               'EFRGRN(1)'
+0.0               'EFRGRN(2)'
+0.0               'EFRGRN(3)'
+0.02              'VLOSSP'
+0.2               'FSDETH(1)'
+0.95              'FSDETH(2)'    #0.4   11/30/2001
+0.1               'FSDETH(3)'
+150.0             'FSDETH(4)'    #500   11/30/2001
+0.15              'FALLRT'       #0.5   11/30/2001
+0.2               'RDR'           0.6
+0.15              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0175            'SNFXMX(1)'  #  0.01 JB 9/2001  0.0375  1/4 Nitrogen fixing
+-27.0             'DEL13C'
+1.1875            'CO2IPR(1)'    50% Temperate grass - 50% C3 clovers
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.1875            'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+G5    grass__mixed_75%warm (GP eq)
+300.0             'PRDX(1)'   #  300
+27.0              'PPDF(1)'
+45.0              'PPDF(2)'
+1.0               'PPDF(3)'
+3.0               'PPDF(4)'
+1.0               'BIOFLG'
+60.0              'BIOK5'
+1.0               'PLTMRF'
+100.0             'FULCAN'
+0.0               'FRTC(1)' GP eq
+0.0               'FRTC(2)'
+0.0               'FRTC(3)'
+400.0             'BIOMAX'
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+50.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+55.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.02              'FLIGNI(1,1)'
+0.0012            'FLIGNI(2,1)'
+0.26              'FLIGNI(1,2)'
+-0.0015           'FLIGNI(2,2)'
+0.02              'HIMAX'
+0.0               'HIWSF'
+2.0               'HIMON(1)'
+1.0               'HIMON(2)'
+0.0               'EFRGRN(1)'
+0.0               'EFRGRN(2)'
+0.0               'EFRGRN(3)'
+0.02              'VLOSSP'
+0.2               'FSDETH(1)'
+0.95              'FSDETH(2)'
+0.1               'FSDETH(3)'
+150.0             'FSDETH(4)'
+0.15              'FALLRT'
+0.05              'RDR'
+0.00              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-18.0             'DEL13C'
+1.075             'CO2IPR(1)'      weighted average  25% c3 - 75% c4
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.075             'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+GI5    grass__mixed_75%warm (GP eq)
+300.0             'PRDX(1)'   #  300
+27.0              'PPDF(1)'
+45.0              'PPDF(2)'
+1.0               'PPDF(3)'
+3.0               'PPDF(4)'
+1.0               'BIOFLG'
+60.0              'BIOK5'
+1.0               'PLTMRF'
+100.0             'FULCAN'
+0.5               'FRTC(1)' R:S 1.0
+0.5               'FRTC(2)'
+1.0               'FRTC(3)'
+400.0             'BIOMAX'
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+50.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+55.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.02              'FLIGNI(1,1)'
+0.0012            'FLIGNI(2,1)'
+0.26              'FLIGNI(1,2)'
+-0.0015           'FLIGNI(2,2)'
+0.02              'HIMAX'
+0.0               'HIWSF'
+2.0               'HIMON(1)'
+1.0               'HIMON(2)'
+0.0               'EFRGRN(1)'
+0.0               'EFRGRN(2)'
+0.0               'EFRGRN(3)'
+0.02              'VLOSSP'
+0.2               'FSDETH(1)'
+0.95              'FSDETH(2)'
+0.1               'FSDETH(3)'
+150.0             'FSDETH(4)' 11/19/02 saw
+0.15              'FALLRT'
+0.05              'RDR'
+0.00              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-18.0             'DEL13C'
+1.075             'CO2IPR(1)'      weighted average  25% c3 - 75% c4
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.075             'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+G4    grass__mixed_25%warm (GP eq)
+300.0             'PRDX(1)'
+18.0              'PPDF(1)'
+35.0              'PPDF(2)'
+1.2               'PPDF(3)'
+3.0               'PPDF(4)'
+1.0               'BIOFLG'
+60.0              'BIOK5'
+1.0               'PLTMRF'
+100.0             'FULCAN'
+0.0               'FRTC(1)' GP eq
+0.0               'FRTC(2)'
+0.0               'FRTC(3)'
+400.0             'BIOMAX'
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+50.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+55.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.02              'FLIGNI(1,1)'
+0.0012            'FLIGNI(2,1)'
+0.26              'FLIGNI(1,2)'
+-0.0015           'FLIGNI(2,2)'
+0.02              'HIMAX'
+0.0               'HIWSF'
+2.0               'HIMON(1)'
+1.0               'HIMON(2)'
+0.0               'EFRGRN(1)'
+0.0               'EFRGRN(2)'
+0.0               'EFRGRN(3)'
+0.02              'VLOSSP'
+0.2               'FSDETH(1)'
+0.95              'FSDETH(2)'
+0.1               'FSDETH(3)'
+150.0             'FSDETH(4)'
+0.15              'FALLRT'
+0.05              'RDR'
+0.00              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-24.0             'DEL13C'
+1.225             'CO2IPR(1)'     changed to weighted average of c3/c4
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.225             'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+GI4    grass__mixed_25%warm (GP eq)
+300.0             'PRDX(1)'
+18.0              'PPDF(1)'
+35.0              'PPDF(2)'
+1.2               'PPDF(3)'
+3.0               'PPDF(4)'
+1.0               'BIOFLG'
+60.0              'BIOK5'
+1.0               'PLTMRF'
+100.0             'FULCAN'
+0.5               'FRTC(1)' R:S 1.0
+0.5               'FRTC(2)'
+1.0               'FRTC(3)'
+400.0             'BIOMAX'
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+50.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+55.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.02              'FLIGNI(1,1)'
+0.0012            'FLIGNI(2,1)'
+0.26              'FLIGNI(1,2)'
+-0.0015           'FLIGNI(2,2)'
+0.02              'HIMAX'
+0.0               'HIWSF'
+2.0               'HIMON(1)'
+1.0               'HIMON(2)'
+0.0               'EFRGRN(1)'
+0.0               'EFRGRN(2)'
+0.0               'EFRGRN(3)'
+0.02              'VLOSSP'
+0.2               'FSDETH(1)'
+0.95              'FSDETH(2)'
+0.1               'FSDETH(3)'
+150.0             'FSDETH(4)' 11/19/02 saw
+0.15              'FALLRT'
+0.05              'RDR'
+0.00              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-24.0             'DEL13C'
+1.225             'CO2IPR(1)'     changed to weighted average of c3/c4
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.225             'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+G3       grass__mixed_50%_warm_50%_cool (GP eq)
+300.0             'PRDX(1)'          # 300
+22.0              'PPDF(1)'
+38.0              'PPDF(2)'
+0.3               'PPDF(3)'
+5.0               'PPDF(4)'
+1.0               'BIOFLG'
+60.0              'BIOK5'
+1.0               'PLTMRF'
+100.0             'FULCAN'    # 100
+0.0               'FRTC(1)' GP eq
+0.0               'FRTC(2)'
+0.0               'FRTC(3)'
+400.0             'BIOMAX'     # 400
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+50.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+55.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.02              'FLIGNI(1,1)'
+0.0012            'FLIGNI(2,1)'
+0.26              'FLIGNI(1,2)'
+-0.0015           'FLIGNI(2,2)'
+0.02              'HIMAX'
+0.0               'HIWSF'
+2.0               'HIMON(1)'
+1.0               'HIMON(2)'
+0.0               'EFRGRN(1)'
+0.0               'EFRGRN(2)'
+0.0               'EFRGRN(3)'
+0.02              'VLOSSP'
+0.2               'FSDETH(1)'
+0.95              'FSDETH(2)'
+0.1               'FSDETH(3)'
+150.0             'FSDETH(4)'
+0.15              'FALLRT'
+0.05              'RDR'
+0.00              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-21.0             'DEL13C'
+1.15              'CO2IPR(1)'    0.5  changed to average of c3/c4 (1+1.3)/2
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.15              'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+GI3       irrigated pasture grass__mixed_50%_warm_50%_cool
+300.0             'PRDX(1)'          # 300
+22.0              'PPDF(1)'
+38.0              'PPDF(2)'
+0.3               'PPDF(3)'
+5.0               'PPDF(4)'
+1.0               'BIOFLG'
+60.0              'BIOK5'
+1.0               'PLTMRF'
+ 50.0             'FULCAN'      #  100
+0.5               'FRTC(1)'  R:S = 1.0 10/22/02 saw
+0.5               'FRTC(2)'            10/22/02 saw
+1.0               'FRTC(3)'
+300.0             'BIOMAX'    # 400
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+50.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+55.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.02              'FLIGNI(1,1)'
+0.0012            'FLIGNI(2,1)'
+0.26              'FLIGNI(1,2)'
+-0.0015           'FLIGNI(2,2)'
+0.02              'HIMAX'
+0.0               'HIWSF'
+2.0               'HIMON(1)'
+1.0               'HIMON(2)'
+0.0               'EFRGRN(1)'
+0.0               'EFRGRN(2)'
+0.0               'EFRGRN(3)'
+0.02              'VLOSSP'
+0.2               'FSDETH(1)'
+0.95              'FSDETH(2)'
+0.1               'FSDETH(3)'
+150.0             'FSDETH(4)' 11/19/02 saw
+0.15              'FALLRT'
+0.05              'RDR'
+0.00              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-21.0             'DEL13C'
+1.15              'CO2IPR(1)'    0.5  changed to average of c3/c4 (1+1.3)/2
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.15              'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+G2    grass__warm_season_species (GP eq)
+300.0             'PRDX(1)'
+30.0              'PPDF(1)'
+45.0              'PPDF(2)'
+1.0               'PPDF(3)'
+2.5               'PPDF(4)'
+1.0               'BIOFLG'
+60.0              'BIOK5'
+1.0               'PLTMRF'
+100.0             'FULCAN'
+0.0               'FRTC(1)' GP eq
+0.0               'FRTC(2)'
+0.0               'FRTC(3)'
+400.0             'BIOMAX'
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+50.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+55.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.02              'FLIGNI(1,1)'
+0.0012            'FLIGNI(2,1)'
+0.26              'FLIGNI(1,2)'
+-0.0015           'FLIGNI(2,2)'
+0.02              'HIMAX'
+0.0               'HIWSF'
+2.0               'HIMON(1)'
+1.0               'HIMON(2)'
+0.0               'EFRGRN(1)'
+0.0               'EFRGRN(2)'
+0.0               'EFRGRN(3)'
+0.02              'VLOSSP'
+0.2               'FSDETH(1)'
+0.95              'FSDETH(2)'
+0.1               'FSDETH(3)'
+150.0             'FSDETH(4)'
+0.15              'FALLRT'
+0.05              'RDR'
+0.00              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-15.0             'DEL13C'
+1.0               'CO2IPR(1)'    changed to Alister's C4 responses
+0.77              'CO2ITR(1)'       0.0
+1.0               'CO2ICE(1,1,1)'   0.0
+1.0               'CO2ICE(1,1,2)'   0.0
+1.0               'CO2ICE(1,1,3)'   0.0
+1.0               'CO2ICE(1,2,1)'   0.0
+1.0               'CO2ICE(1,2,2)'   0.0
+1.0               'CO2ICE(1,2,3)'   0.0
+1.0               'CO2IRS(1)'       0.0
+G1    grass__cool_season_species_(Siberia) (GP eq)
+300.0             'PRDX(1)'
+15.0              'PPDF(1)'
+32.0              'PPDF(2)'
+1.0               'PPDF(3)'
+3.5               'PPDF(4)'
+1.0               'BIOFLG'
+60.0              'BIOK5'
+1.0               'PLTMRF'
+100.0             'FULCAN'
+0.0               'FRTC(1)' GP eq
+0.0               'FRTC(2)'
+0.0               'FRTC(3)'
+400.0             'BIOMAX'
+20.0              'PRAMN(1,1)'   12.0
+100.0             'PRAMN(2,1)'
+100.0             'PRAMN(3,1)'
+60.0              'PRAMN(1,2)'  9/14/01 KP
+160.0             'PRAMN(2,2)'
+200.0             'PRAMN(3,2)'
+40.0              'PRAMX(1,1)'  25.0
+200.0             'PRAMX(2,1)'
+230.0             'PRAMX(3,1)'
+120.0              'PRAMX(1,2)'  9/14/01 KP
+260.0             'PRAMX(2,2)'
+270.0             'PRAMX(3,2)'
+50.0              'PRBMN(1,1)'
+390.0             'PRBMN(2,1)'
+340.0             'PRBMN(3,1)'
+0.0               'PRBMN(1,2)'
+0.0               'PRBMN(2,2)'
+0.0               'PRBMN(3,2)'
+55.0              'PRBMX(1,1)'
+420.0             'PRBMX(2,1)'
+420.0             'PRBMX(3,1)'
+0.0               'PRBMX(1,2)'
+0.0               'PRBMX(2,2)'
+0.0               'PRBMX(3,2)'
+0.02              'FLIGNI(1,1)'
+0.0012            'FLIGNI(2,1)'
+0.26              'FLIGNI(1,2)'
+-0.0015           'FLIGNI(2,2)'
+0.02              'HIMAX'
+0.0               'HIWSF'
+2.0               'HIMON(1)'
+1.0               'HIMON(2)'
+0.0               'EFRGRN(1)'
+0.0               'EFRGRN(2)'
+0.0               'EFRGRN(3)'
+0.02              'VLOSSP'
+0.2               'FSDETH(1)'
+0.95              'FSDETH(2)'
+0.1               'FSDETH(3)'
+150.0             'FSDETH(4)'
+0.15              'FALLRT'
+0.05              'RDR'
+0.00              'RTSEN'      # new (optional) root senescence parameter
+2.0               'RTDTMP'
+0.0               'CRPRTF(1)'
+0.0               'CRPRTF(2)'
+0.0               'CRPRTF(3)'
+0.0               'SNFXMX(1)'
+-27.0             'DEL13C'
+1.3               'CO2IPR(1)'       changed to c3 (wheat) parameters
+0.77              'CO2ITR(1)'
+1.0               'CO2ICE(1,1,1)'
+1.0               'CO2ICE(1,1,2)'
+1.0               'CO2ICE(1,1,3)'
+1.3               'CO2ICE(1,2,1)'
+1.0               'CO2ICE(1,2,2)'
+1.0               'CO2ICE(1,2,3)'
+1.0               'CO2IRS(1)'
+Chico    Pastagem parametrizada pelo Chico
+71.000            'PRDX(1)'   
+25.00000          'PPDF(1)'   
+45.00000          'PPDF(2)'   
+1.00000           'PPDF(3)'   
+2.50000           'PPDF(4)'   
+1.00000           'BIOFLG'    
+60.00000          'BIOK5'     
+0                 'PLTMRF'    
+150               'FULCAN'    
+0.00000           'FRTC(1)'   
+0.00000           'FRTC(2)'   
+0.00000           'FRTC(3)'   
+400.00000         'BIOMAX'    
+30                'PRAMN(1,1)'
+390.00000         'PRAMN(2,1)'
+340.00000         'PRAMN(3,1)'
+90                'PRAMN(1,2)'
+390.00000         'PRAMN(2,2)'
+340.00000         'PRAMN(3,2)'
+35                'PRAMX(1,1)'
+440.00000         'PRAMX(2,1)'
+440.00000         'PRAMX(3,1)'
+95                'PRAMX(1,2)'
+440.00000         'PRAMX(2,2)'
+440.00000         'PRAMX(3,2)'
+50                'PRBMN(1,1)'
+390.00000         'PRBMN(2,1)'
+340.00000         'PRBMN(3,1)'
+0.00000           'PRBMN(1,2)'
+0.00000           'PRBMN(2,2)'
+0.00000           'PRBMN(3,2)'
+55                'PRBMX(1,1)'
+420.00000         'PRBMX(2,1)'
+420.00000         'PRBMX(3,1)'
+0.00000           'PRBMX(1,2)'
+0.00000           'PRBMX(2,2)'
+0.00000           'PRBMX(3,2)'
+0.02000           'FLIGNI(1,1)'
+0.012             'FLIGNI(2,1)'
+0.26000           'FLIGNI(1,2)'
+-0.00150          'FLIGNI(2,2)'
+0.00000           'HIMAX'     
+0.00000           'HIWSF'     
+0.00000           'HIMON(1)'  
+0.00000           'HIMON(2)'  
+0                 'EFRGRN(1)' 
+0                 'EFRGRN(2)' 
+0                 'EFRGRN(3)' 
+0.15              'VLOSSP'    
+0.20000           'FSDETH(1)' 
+0.95000           'FSDETH(2)' 
+0.20000           'FSDETH(3)' 
+150.00000         'FSDETH(4)' 
+0.15000           'FALLRT'    
+0.05000           'RDR'       
+2.00000           'RTDTMP'    
+0                 'CRPRTF(1)' 
+0.00000           'CRPRTF(2)' 
+0.00000           'CRPRTF(3)' 
+0.05              'SNFXMX(1)' 
+-15.000           'DEL13C'    
+1.20000           'CO2IPR'    
+0.80000           'CO2ITR'    
+1.20000           'CO2ICE(1,1,1)'
+1.00000           'CO2ICE(1,1,2)'
+1.00000           'CO2ICE(1,1,3)'
+1.20000           'CO2ICE(1,2,1)'
+1.00000           'CO2ICE(1,2,2)'
+1.00000           'CO2ICE(1,2,3)'
+1.00000           'CO2IRS(1)' 
